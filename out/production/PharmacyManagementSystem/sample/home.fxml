@@ -1,11 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller" prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="765.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <MenuBar prefHeight="32.0" prefWidth="1023.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Create Sale" />
+              <MenuItem mnemonicParsing="false" text="Quit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Update Product Details" />
+              <MenuItem mnemonicParsing="false" text="Delete Product" />
+              <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem mnemonicParsing="false" text="Update Employee" />
+              <MenuItem mnemonicParsing="false" text="Delete Employee" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Insert">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Pharma Product" />
+                <MenuItem mnemonicParsing="false" text="Employee" />
+                <MenuItem mnemonicParsing="false" text="Patient" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="View">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="Sale" />
+                    <MenuItem mnemonicParsing="false" text="Products" />
+                    <MenuItem mnemonicParsing="false" text="Employees" />
+                    <MenuItem mnemonicParsing="false" text="Patients" />
+                </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <StackPane fx:id="dData" layoutY="32.0" prefHeight="731.0" prefWidth="1023.0">
+         <children>
+            <Pane focusTraversable="true" prefHeight="731.0" prefWidth="1023.0" visible="false" />
+            <Pane fx:id="salePane" prefHeight="731.0" prefWidth="1023.0">
+               <children>
+                  <TableView layoutX="28.0" layoutY="233.0" prefHeight="200.0" prefWidth="900.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                      <TableColumn prefWidth="75.0" text="C11" />
+                      <TableColumn prefWidth="75.0" text="C22" />
+                      <TableColumn prefWidth="75.0" text="C13" />
+                      <TableColumn prefWidth="75.0" text="C24" />
+                      <TableColumn prefWidth="75.0" text="C16" />
+                      <TableColumn prefWidth="75.0" text="C25" />
+                      <TableColumn prefWidth="75.0" text="C17" />
+                      <TableColumn prefWidth="75.0" text="C74" />
+                      <TableColumn prefWidth="75.0" text="C41" />
+                      <TableColumn prefWidth="75.0" text="C82" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+      </StackPane>
+   </children>
 </AnchorPane>
