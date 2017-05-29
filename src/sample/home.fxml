@@ -8,17 +8,22 @@
 <?import javafx.scene.control.SeparatorMenuItem?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.input.KeyCodeCombination?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
-<AnchorPane prefHeight="765.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <MenuBar prefHeight="32.0" prefWidth="1023.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" text="Create Sale" />
+              <MenuItem onAction="#createSaleAction" text="Create Sale">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="N" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
               <MenuItem mnemonicParsing="false" text="Quit" />
             </items>
           </Menu>
@@ -40,10 +45,13 @@
             </Menu>
             <Menu mnemonicParsing="false" text="View">
                 <items>
-                    <MenuItem mnemonicParsing="false" text="Sale" />
-                    <MenuItem mnemonicParsing="false" text="Products" />
-                    <MenuItem mnemonicParsing="false" text="Employees" />
-                    <MenuItem mnemonicParsing="false" text="Patients" />
+                    <MenuItem onAction="#viewSaleAction" text="Sale">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="S" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+                    <MenuItem mnemonicParsing="false" onAction="#viewProductAction" text="Products" />
+                    <MenuItem mnemonicParsing="false" onAction="#viewEmployeeAction" text="Employees" />
+                    <MenuItem mnemonicParsing="false" onAction="#viewPatientAction" text="Patients" />
                 </items>
             </Menu>
           <Menu mnemonicParsing="false" text="Help">
@@ -55,7 +63,7 @@
       </MenuBar>
       <StackPane fx:id="dData" layoutY="32.0" prefHeight="731.0" prefWidth="1023.0">
          <children>
-            <Pane fx:id="vSalePanel" prefHeight="731.0" prefWidth="1023.0" visible="false">
+            <Pane fx:id="vSalePane" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <TableView layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
                     <columns>
@@ -73,10 +81,10 @@
                       <TableColumn prefWidth="75.0" text="C2" />
                     </columns>
                   </TableView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Sale History" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
                </children>
             </Pane>
-            <Pane fx:id="vEmployeePanel" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
+            <Pane fx:id="veEmployeePane" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <TableView layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
                      <columns>
@@ -84,10 +92,10 @@
                         <TableColumn prefWidth="75.0" text="C2" />
                      </columns>
                   </TableView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Employee Details" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
                </children>
             </Pane>
-            <Pane fx:id="vproductPanel" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
+            <Pane fx:id="vProductPane" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <TableView layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
                      <columns>
@@ -95,10 +103,10 @@
                         <TableColumn prefWidth="75.0" text="C2" />
                      </columns>
                   </TableView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Product Details" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
                </children>
             </Pane>
-            <Pane fx:id="vpatientPanel" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
+            <Pane fx:id="vPatientPane" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <TableView layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
                      <columns>
@@ -106,15 +114,15 @@
                         <TableColumn prefWidth="75.0" text="C2" />
                      </columns>
                   </TableView>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Label" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Patient Details" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
                </children>
             </Pane>
             <Pane prefHeight="200.0" prefWidth="200.0" visible="false" />
             <Pane focusTraversable="true" prefHeight="731.0" prefWidth="1023.0" visible="false" />
             <Pane prefHeight="200.0" prefWidth="200.0" visible="false" />
-            <Pane fx:id="salePane" prefHeight="731.0" prefWidth="1023.0" visible="false">
+            <Pane fx:id="salePane" prefHeight="731.0" prefWidth="1023.0">
                <children>
-                  <TableView layoutX="28.0" layoutY="233.0" prefHeight="200.0" prefWidth="900.0">
+                  <TableView layoutX="22.0" layoutY="318.0" prefHeight="200.0" prefWidth="978.0">
                     <columns>
                       <TableColumn prefWidth="75.0" text="C1" />
                       <TableColumn prefWidth="75.0" text="C2" />
@@ -130,6 +138,16 @@
                       <TableColumn prefWidth="75.0" text="C82" />
                     </columns>
                   </TableView>
+                  <Label alignment="CENTER" layoutX="50.0" layoutY="3.0" prefHeight="50.0" prefWidth="885.0" text="Label" textAlignment="CENTER" />
+                  <Label layoutX="41.0" layoutY="100.0" text="Label" />
+                  <Label layoutX="41.0" layoutY="150.0" text="Label" />
+                  <Label layoutX="41.0" layoutY="203.0" text="Label" />
+                  <Label layoutX="41.0" layoutY="265.0" text="Label" />
+                  <Label layoutX="533.0" layoutY="90.0" text="Label" />
+                  <Label layoutX="533.0" layoutY="150.0" text="Label" />
+                  <Label layoutX="533.0" layoutY="203.0" text="Label" />
+                  <Label layoutX="533.0" layoutY="265.0" text="Label" />
+                  <TextField layoutX="184.0" layoutY="96.0" prefHeight="31.0" prefWidth="284.0" />
                </children>
             </Pane>
          </children>

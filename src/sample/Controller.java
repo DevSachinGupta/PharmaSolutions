@@ -8,14 +8,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import org.sqlite.SQLiteDataSource;
-
-import javax.sql.DataSource;
-import java.awt.*;
 import java.io.IOException;
-import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Controller {
@@ -33,7 +29,7 @@ public class Controller {
     @FXML private TextField userID;
     @FXML private PasswordField userPass;
     @FXML private StackPane dData;
-    @FXML private Panel vSalePane,vEmployeePanel;
+    @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane;
 
 
     /**
@@ -50,8 +46,8 @@ public class Controller {
         /**
          * Code to verify the username and password
          */
-        Connection con= sqLiteDataSource.getConnection();
-        System.out.print(con);
+//        Connection con= sqLiteDataSource.getConnection();
+//        System.out.print(con);
         root= FXMLLoader.load(getClass().getResource("home.fxml"));
         Scene scene=new Scene(root);
         s.setResizable(true);
@@ -72,31 +68,47 @@ public class Controller {
     }
 
 
-    private static final SQLiteDataSource sqLiteDataSource;
+//    private static final SQLiteDataSource sqLiteDataSource;
 
     /**
      * Helper Functions
      */
 
-    static {
-        sqLiteDataSource=new SQLiteDataSource();
-        sqLiteDataSource.setUrl("jdbc:sqlite:pms.db");
+//    static {
+//        sqLiteDataSource=new SQLiteDataSource();
+//        sqLiteDataSource.setUrl("jdbc:sqlite:pms.db");
+//    }
+
+    public void viewSaleAction(){
+        changeTop(vSalePane);
+    }
+    public void viewPatientAction(){
+        changeTop(vPatientPane);
+    }
+    public void viewEmployeeAction(){
+        changeTop(veEmployeePane);
+    }
+    public void viewProductAction(){
+        changeTop(vProductPane);
+    }
+    public void createSaleAction(){
+        changeTop(salePane);
     }
 
+    /**
+     * 
+     * @param node
+     */
     private void changeTop(Node node) {
         ObservableList<Node> childs = dData.getChildren();
 
-
-            //
             Node topNode = childs.get(childs.size()-1);
-
-            // This node will be brought to the front
             Node newTopNode = node;
 
             topNode.setVisible(false);
             topNode.toBack();
 
             newTopNode.setVisible(true);
-
+            newTopNode.toFront();
     }
 }
