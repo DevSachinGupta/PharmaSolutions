@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -11,6 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Font.loadFont(getClass().getResourceAsStream("fonts/Playball-Regular.ttf"),40);
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(false);

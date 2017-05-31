@@ -49,9 +49,18 @@
                      <accelerator>
                         <KeyCodeCombination alt="UP" code="S" control="ANY" meta="UP" shift="UP" shortcut="UP" />
                      </accelerator></MenuItem>
-                    <MenuItem mnemonicParsing="false" onAction="#viewProductAction" text="Products" />
-                    <MenuItem mnemonicParsing="false" onAction="#viewEmployeeAction" text="Employees" />
-                    <MenuItem mnemonicParsing="false" onAction="#viewPatientAction" text="Patients" />
+                    <MenuItem onAction="#viewProductAction" text="Products">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="P" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+                    <MenuItem onAction="#viewEmployeeAction" text="Employees">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="E" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+                    <MenuItem onAction="#viewPatientAction" text="Patients">
+                     <accelerator>
+                        <KeyCodeCombination alt="ANY" code="P" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
                 </items>
             </Menu>
           <Menu mnemonicParsing="false" text="Help">
@@ -139,7 +148,7 @@
                     </columns>
                   </TableView>
                   <Label alignment="CENTER" layoutX="50.0" layoutY="3.0" prefHeight="50.0" prefWidth="885.0" text="Label" textAlignment="CENTER" />
-                  <Label layoutX="41.0" layoutY="100.0" text="Label" />
+                  <Label layoutX="41.0" layoutY="100.0" text="Product Name" />
                   <Label layoutX="41.0" layoutY="150.0" text="Label" />
                   <Label layoutX="41.0" layoutY="203.0" text="Label" />
                   <Label layoutX="41.0" layoutY="265.0" text="Label" />
