@@ -12,7 +12,10 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Controller {
 
@@ -22,6 +25,11 @@ public class Controller {
     String dname="pmsn",duser="root",dpass="root",durl="";
     String username,password,ename,eid;
     int quant;
+    Connection connection;
+
+    {
+        connection = DataBase.getConnection();
+    }
 
     /**
      * FXML Elements
@@ -30,7 +38,7 @@ public class Controller {
     @FXML private PasswordField userPass;
     @FXML private StackPane dData;
     @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane;
-
+    @FXML private Label errorLogin;
 
     /**
      * FXML Button Actions
@@ -46,15 +54,28 @@ public class Controller {
         /**
          * Code to verify the username and password
          */
-//        Connection con= sqLiteDataSource.getConnection();
-//        System.out.print(con);
-        root= FXMLLoader.load(getClass().getResource("home.fxml"));
-        Scene scene=new Scene(root);
-        s.setResizable(true);
-        s.setTitle("Home");
-        s.setScene(scene);
-        s.show();
-
+        Statement st=connection.createStatement();
+        ResultSet rs=st.executeQuery("SELECT emp_id,password from employeedata");
+        if (eid.equals("") || password.equals("")) {
+            errorLogin.setText("Enter Correct Values");
+            errorLogin.setId("actiontarget");
+        }
+        else {
+            while(rs.next()) {
+                if(eid.equals(rs.getString("emp_id")) && password.equalsIgnoreCase(rs.getString("password"))) {
+                    root = FXMLLoader.load(getClass().getResource("home.fxml"));
+                    Scene scene = new Scene(root);
+                    s.setResizable(true);
+                    s.setTitle("Home");
+                    s.setScene(scene);
+                    s.show();
+                }
+                else {
+                    errorLogin.setId("actiontarget");
+                    errorLogin.setText("Invalid UserID / Password");
+                }
+            }
+        }
     }
 
     @FXML
@@ -96,7 +117,7 @@ public class Controller {
     }
 
     /**
-     * 
+     *
      * @param node
      */
     private void changeTop(Node node) {

@@ -11,6 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        new DataBase();
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Font.loadFont(getClass().getResourceAsStream("fonts/Playball-Regular.ttf"),40);
         primaryStage.setTitle("Login");

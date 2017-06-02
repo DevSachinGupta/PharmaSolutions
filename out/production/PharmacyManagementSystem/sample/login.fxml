@@ -5,6 +5,7 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -16,14 +17,18 @@
             <Font name="Century Schoolbook" size="24.0" />
          </font>
       </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="122.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="146.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image></ImageView>
       <Label layoutX="40.0" layoutY="280.0" text="Enter UserId " />
       <Label accessibleRole="PASSWORD_FIELD" layoutX="40.0" layoutY="327.0" text="Enter Password" />
-      <TextField fx:id="userID" layoutX="195.0" layoutY="275.0" />
+      <TextField fx:id="userID" cache="true" layoutX="195.0" layoutY="275.0" />
       <PasswordField fx:id="userPass" layoutX="195.0" layoutY="322.0" />
-      <Button layoutX="78.0" layoutY="400.0" mnemonicParsing="false" onAction="#exit" prefHeight="37.0" prefWidth="63.0" text="Exit" />
-      <Button layoutX="181.0" layoutY="400.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="95.0" text="Login &gt;&gt;" />
-      <Button layoutX="305.0" layoutY="400.0" mnemonicParsing="false" onAction="#clear" prefHeight="37.0" prefWidth="63.0" text="Clear" />
+      <Button layoutX="82.0" layoutY="410.0" mnemonicParsing="false" onAction="#exit" prefHeight="37.0" prefWidth="63.0" text="Exit" />
+      <Button layoutX="185.0" layoutY="410.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="95.0" text="Login &gt;&gt;" />
+      <Button layoutX="309.0" layoutY="410.0" mnemonicParsing="false" onAction="#clear" prefHeight="37.0" prefWidth="63.0" text="Clear" />
+      <Label fx:id="errorLogin" layoutX="52.0" layoutY="375.0" prefHeight="27.0" prefWidth="350.0" />
    </children>
    <effect>
       <DropShadow />
