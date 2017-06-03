@@ -24,7 +24,10 @@
                      <accelerator>
                         <KeyCodeCombination alt="UP" code="N" control="ANY" meta="UP" shift="UP" shortcut="UP" />
                      </accelerator></MenuItem>
-              <MenuItem mnemonicParsing="false" text="Quit" />
+              <MenuItem mnemonicParsing="false" onAction="#exit" text="Quit">
+                     <accelerator>
+                        <KeyCodeCombination alt="ANY" code="X" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">

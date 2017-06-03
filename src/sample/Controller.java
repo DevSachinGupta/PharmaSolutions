@@ -1,5 +1,8 @@
 package sample;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,6 +14,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import javafx.util.Duration;
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -83,53 +88,88 @@ public class Controller {
         userID.setText("");
         userPass.setText("");
     }
+
+
+    @FXML public  void createSale(){
+
+    }
+
+    @FXML public void addEmployee(){
+
+    }
+    @FXML public void updateEmployee(){
+
+    }
+
+    @FXML public void addPatient(){
+
+    }
+    @FXML public void updatePaitent(){
+
+    }
+
+    @FXML public void addMedicine(){
+
+    }
+    @FXML public void updateMedicine(){
+
+    }
+
     @FXML
     public void exit(){
         System.exit(0);
     }
 
+    public void searchMedicine(){
 
-//    private static final SQLiteDataSource sqLiteDataSource;
+    }
 
     /**
-     * Helper Functions
+     * MenuItem Functions
      */
-
-//    static {
-//        sqLiteDataSource=new SQLiteDataSource();
-//        sqLiteDataSource.setUrl("jdbc:sqlite:pms.db");
-//    }
-
-    public void viewSaleAction(){
+    @FXML public void viewSaleAction(){
         changeTop(vSalePane);
     }
-    public void viewPatientAction(){
+    @FXML public void viewPatientAction(){
         changeTop(vPatientPane);
     }
-    public void viewEmployeeAction(){
+    @FXML public void viewEmployeeAction(){
         changeTop(veEmployeePane);
     }
-    public void viewProductAction(){
+    @FXML public void viewProductAction(){
         changeTop(vProductPane);
     }
-    public void createSaleAction(){
+    @FXML public void createSaleAction(){
         changeTop(salePane);
     }
+    @FXML public void aboutMenuAcion(){
 
+    }
     /**
-     *
+     *Used to change the nodes of the stackpane using
      * @param node
      */
     private void changeTop(Node node) {
         ObservableList<Node> childs = dData.getChildren();
 
-            Node topNode = childs.get(childs.size()-1);
-            Node newTopNode = node;
+        Node topNode = childs.get(childs.size()-1);
+        Node newTopNode = node;
 
-            topNode.setVisible(false);
+        double width = dData.getWidth();
+        KeyFrame start = new KeyFrame(Duration.ZERO,
+                new KeyValue(newTopNode.translateXProperty(), width),
+                new KeyValue(topNode.translateXProperty(), 0));
+        KeyFrame end = new KeyFrame(Duration.seconds(2),
+                new KeyValue(newTopNode.translateXProperty(), 0),
+                new KeyValue(topNode.translateXProperty(), -width));
+        Timeline slide = new Timeline(start, end);
+        slide.setOnFinished(e -> {
             topNode.toBack();
-
-            newTopNode.setVisible(true);
             newTopNode.toFront();
+            newTopNode.setVisible(true);
+            topNode.setVisible(false);
+
+        });
+        slide.play();
     }
 }

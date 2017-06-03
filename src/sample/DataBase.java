@@ -2,9 +2,8 @@ package sample;
 
 import org.sqlite.JDBC;
 import org.sqlite.SQLiteDataSource;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+
+import java.sql.*;
 
 /**
  * Created by Sachin Gupta on 21-05-2017.
@@ -30,5 +29,9 @@ public class DataBase {
         return connection;
     }
 
-
+    public ResultSet selectTableData(String sql) throws SQLException {
+        Statement st=connection.createStatement();
+        ResultSet rs=st.executeQuery(sql);
+        return rs;
+    }
 }
