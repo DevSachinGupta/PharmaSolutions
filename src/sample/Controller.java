@@ -31,7 +31,6 @@ public class Controller {
     String username,password,ename,eid;
     int quant;
     Connection connection;
-
     {
         connection = DataBase.getConnection();
     }
@@ -120,7 +119,7 @@ public class Controller {
         System.exit(0);
     }
 
-    public void searchMedicine(){
+    public void searchData(){
 
     }
 

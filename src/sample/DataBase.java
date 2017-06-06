@@ -29,7 +29,7 @@ public class DataBase {
         return connection;
     }
 
-    public ResultSet selectTableData(String sql) throws SQLException {
+    public  ResultSet selectTableData(String sql) throws SQLException {
         Statement st=connection.createStatement();
         ResultSet rs=st.executeQuery(sql);
         return rs;
