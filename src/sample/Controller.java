@@ -41,7 +41,7 @@ public class Controller {
     @FXML private TextField userID;
     @FXML private PasswordField userPass;
     @FXML private StackPane dData;
-    @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane;
+    @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane,iPatient,iEmployee,iMedicine,eMedicineUpdate,eMedicineDelete,eEmployeeUpdate,eEmployeeDelete;
     @FXML private Label errorLogin;
 
     /**
@@ -144,6 +144,14 @@ public class Controller {
     @FXML public void aboutMenuAcion(){
 
     }
+    @FXML public void insertEmployeeMenuAcion(){changeTop(iEmployee);}
+    @FXML public void insertMedicineMenuAcion(){changeTop(iMedicine);}
+    @FXML public void insertPatientMenuAcion(){changeTop(iPatient);}
+    @FXML public void updateEmployeeMenuAcion(){changeTop(eEmployeeUpdate);}
+    @FXML public void updateMedicineMenuAcion(){changeTop(eMedicineUpdate);}
+    @FXML public void deleteEmployeeMenuAcion(){changeTop(eEmployeeDelete);}
+    @FXML public void deleteMedicineMenuAcion(){changeTop(eMedicineDelete);}
+
     /**
      *Used to change the nodes of the stackpane using
      * @param node

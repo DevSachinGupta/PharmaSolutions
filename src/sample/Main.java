@@ -14,6 +14,7 @@ public class Main extends Application {
         new DataBase();
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Font.loadFont(getClass().getResourceAsStream("fonts/Playball-Regular.ttf"),40);
+        Font.loadFont(getClass().getResourceAsStream("fonts/BubblerOne-Regular.ttf"),40);
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(false);
