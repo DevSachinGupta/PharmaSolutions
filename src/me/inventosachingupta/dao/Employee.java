@@ -1,4 +1,4 @@
-package me.inventosachingupta.tableViewHelperClasses;
+package me.inventosachingupta.dao;
 
 import javafx.beans.property.SimpleStringProperty;
 
@@ -40,20 +40,12 @@ public class Employee {
         return id.get();
     }
 
-    public SimpleStringProperty idProperty() {
-        return id;
-    }
-
     public void setId(String id) {
         this.id.set(id);
     }
 
     public String getContact() {
         return contact.get();
-    }
-
-    public SimpleStringProperty contactProperty() {
-        return contact;
     }
 
     public void setContact(String contact) {
@@ -64,20 +56,12 @@ public class Employee {
         return email.get();
     }
 
-    public SimpleStringProperty emailProperty() {
-        return email;
-    }
-
     public void setEmail(String email) {
         this.email.set(email);
     }
 
     public String getJob_title() {
         return job_title.get();
-    }
-
-    public SimpleStringProperty job_titleProperty() {
-        return job_title;
     }
 
     public void setJob_title(String job_title) {
@@ -88,20 +72,12 @@ public class Employee {
         return department.get();
     }
 
-    public SimpleStringProperty departmentProperty() {
-        return department;
-    }
-
     public void setDepartment(String department) {
         this.department.set(department);
     }
 
     public String getShift() {
         return shift.get();
-    }
-
-    public SimpleStringProperty shiftProperty() {
-        return shift;
     }
 
     public void setShift(String shift) {
@@ -112,20 +88,12 @@ public class Employee {
         return type.get();
     }
 
-    public SimpleStringProperty typeProperty() {
-        return type;
-    }
-
     public void setType(String type) {
         this.type.set(type);
     }
 
     public String getAddress() {
         return address.get();
-    }
-
-    public SimpleStringProperty addressProperty() {
-        return address;
     }
 
     public void setAddress(String address) {
@@ -136,10 +104,6 @@ public class Employee {
         return start_date.get();
     }
 
-    public SimpleStringProperty start_dateProperty() {
-        return start_date;
-    }
-
     public void setStart_date(String start_date) {
         this.start_date.set(start_date);
     }
@@ -148,11 +112,24 @@ public class Employee {
         return end_date.get();
     }
 
-    public SimpleStringProperty end_dateProperty() {
-        return end_date;
-    }
-
     public void setEnd_date(String end_date) {
         this.end_date.set(end_date);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name=" + name +
+                ", contact=" + contact +
+                ", email=" + email +
+                ", job_title=" + job_title +
+                ", department=" + department +
+                ", shift=" + shift +
+                ", type=" + type +
+                ", address=" + address +
+                ", start_date=" + start_date +
+                ", end_date=" + end_date +
+                '}';
     }
 }

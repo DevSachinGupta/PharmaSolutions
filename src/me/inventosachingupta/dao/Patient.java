@@ -1,4 +1,4 @@
-package me.inventosachingupta.tableViewHelperClasses;
+package me.inventosachingupta.dao;
 
 import javafx.beans.property.SimpleStringProperty;
 
@@ -28,20 +28,12 @@ public class Patient {
         return id.get();
     }
 
-    public SimpleStringProperty idProperty() {
-        return id;
-    }
-
     public void setId(String id) {
         this.id.set(id);
     }
 
     public String getName() {
         return name.get();
-    }
-
-    public SimpleStringProperty nameProperty() {
-        return name;
     }
 
     public void setName(String name) {
@@ -52,20 +44,12 @@ public class Patient {
         return dob.get();
     }
 
-    public SimpleStringProperty dobProperty() {
-        return dob;
-    }
-
     public void setDob(String dob) {
         this.dob.set(dob);
     }
 
     public String getAge() {
         return age.get();
-    }
-
-    public SimpleStringProperty ageProperty() {
-        return age;
     }
 
     public void setAge(String age) {
@@ -76,20 +60,12 @@ public class Patient {
         return gender.get();
     }
 
-    public SimpleStringProperty genderProperty() {
-        return gender;
-    }
-
     public void setGender(String gender) {
         this.gender.set(gender);
     }
 
     public String getDoctor_name() {
         return doctor_name.get();
-    }
-
-    public SimpleStringProperty doctor_nameProperty() {
-        return doctor_name;
     }
 
     public void setDoctor_name(String doctor_name) {
@@ -100,11 +76,21 @@ public class Patient {
         return diagnosis.get();
     }
 
-    public SimpleStringProperty diagnosisProperty() {
-        return diagnosis;
-    }
 
     public void setDiagnosis(String diagnosis) {
         this.diagnosis.set(diagnosis);
+    }
+
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "id=" + id +
+                ", name=" + name +
+                ", dob=" + dob +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", doctor_name=" + doctor_name +
+                ", diagnosis=" + diagnosis +
+                '}';
     }
 }
