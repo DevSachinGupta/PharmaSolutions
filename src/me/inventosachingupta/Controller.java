@@ -66,10 +66,15 @@ public class Controller {
                         Context.getInstance().setCat("admin");
                         errorLogin.setText("Logged in Successfully");
                         root = FXMLLoader.load(getClass().getResource("home.fxml"));
+                        System.out.print("1");
                         Scene scene = new Scene(root);
+                        System.out.print("2");
                         stage.setTitle("Home");
+                        System.out.print("3");
                         stage.setScene(scene);
+                        System.out.print("4");
                         stage.show();
+                        System.out.print("5");
 
                     } else {
                         errorLogin.setId("actiontarget");
@@ -78,13 +83,14 @@ public class Controller {
                 }
             }
         }
-        catch (Exception e){}
+        catch (Exception e){e.printStackTrace();}
     }
 
     @FXML
     public void clear() {
         userID.setText("");
         userPass.setText("");
+        errorLogin.setText("");
     }
 
     @FXML public void exit(){

@@ -85,20 +85,15 @@
             <Pane fx:id="vSalePane" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Sale History" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                  <TableView layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
+                  <TableView fx:id="saleTable" layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
                     <columns>
-                      <TableColumn prefWidth="75.0" text="C1" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                      <TableColumn prefWidth="75.0" text="C2" />
+                      <TableColumn fx:id="sdtino" prefWidth="127.0" text="Invoice No" />
+                      <TableColumn fx:id="sdtcid" prefWidth="125.0" text="Customer ID" />
+                      <TableColumn fx:id="sdtcname" prefWidth="266.0" text="Customer Name" />
+                      <TableColumn fx:id="sdtnoi" prefWidth="103.0" text="No of Item" />
+                      <TableColumn fx:id="sdtquant" prefWidth="95.0" text="Quantity" />
+                      <TableColumn fx:id="sdtamt" prefWidth="121.0" text="Amount" />
+                      <TableColumn fx:id="sdtmop" prefWidth="185.0" text="Method of Payment" />
                     </columns>
                   </TableView>
                </children>
@@ -129,10 +124,15 @@
             <Pane fx:id="vProductPane" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Product Details" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                  <TableView layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
+                  <TableView fx:id="productTable" layoutY="110.0" prefHeight="624.0" prefWidth="1023.0">
                      <columns>
-                        <TableColumn prefWidth="75.0" text="C1" />
-                        <TableColumn prefWidth="75.0" text="C2" />
+                        <TableColumn fx:id="pdtcode" prefWidth="105.0" text="Item Code" />
+                        <TableColumn fx:id="pdtname" prefWidth="247.0" text="Item Name" />
+                        <TableColumn fx:id="pdtbname" prefWidth="164.0" text="Brand Name" />
+                        <TableColumn fx:id="pdtdepartment" prefWidth="127.0" text="Department" />
+                        <TableColumn fx:id="pdtptype" prefWidth="133.0" text="Product Type" />
+                        <TableColumn fx:id="pdtpsize" prefWidth="101.0" text="Pack Size" />
+                        <TableColumn fx:id="pdtquantity" prefWidth="145.0" text="Quantity" />
                      </columns>
                   </TableView>
                </children>
@@ -213,17 +213,17 @@
                </children></Pane>
             <Pane fx:id="salePane" prefHeight="731.0" prefWidth="1023.0">
                <children>
-                  <TableView layoutX="22.0" layoutY="318.0" prefHeight="200.0" prefWidth="978.0">
+                  <TableView fx:id="saleItemTable" layoutX="22.0" layoutY="318.0" prefHeight="200.0" prefWidth="978.0">
                     <columns>
                       <TableColumn fx:id="ssn" prefWidth="57.0" text="S.No." />
                       <TableColumn fx:id="sic" prefWidth="104.0" text="Item Code" />
-                      <TableColumn fx:id="siname" prefWidth="187.0" text="Item Name" />
-                      <TableColumn fx:id="ssf" prefWidth="118.0" text="Formulation" />
-                      <TableColumn fx:id="sbn" prefWidth="93.0" text="Batch No." />
+                      <TableColumn fx:id="siname" prefWidth="179.0" text="Item Name" />
+                      <TableColumn fx:id="ssf" prefWidth="129.0" text="Generic Name" />
+                      <TableColumn fx:id="sbn" prefWidth="90.0" text="Batch No." />
                       <TableColumn fx:id="sed" prefWidth="120.0" text="Expiry Date" />
-                      <TableColumn fx:id="sq" prefWidth="91.0" text="Quantity" />
-                      <TableColumn fx:id="smrp" prefWidth="90.0" text="M.R.P." />
-                      <TableColumn fx:id="samt" prefWidth="117.0" text="Amount" />
+                      <TableColumn fx:id="sq" prefWidth="102.0" text="Quantity" />
+                      <TableColumn fx:id="smrp" prefWidth="95.0" text="M.R.P." />
+                      <TableColumn fx:id="samt" prefWidth="101.0" text="Amount" />
                     </columns>
                   </TableView>
                   <Label id="panelTitle" alignment="CENTER" layoutX="50.0" layoutY="3.0" prefHeight="50.0" prefWidth="885.0" text="Point Of Sale" textAlignment="CENTER" />
@@ -232,34 +232,35 @@
                   <Label layoutX="36.0" layoutY="204.0" text="Expiry Date" />
                   <Label layoutX="41.0" layoutY="265.0" text="Customer ID" />
                   <Label layoutX="529.0" layoutY="100.0" text="Batch No." />
-                  <Label layoutX="533.0" layoutY="150.0" text="Formulation" />
-                  <Label layoutX="533.0" layoutY="265.0" text="Customer Name" />
+                  <Label layoutX="529.0" layoutY="150.0" text="Generic Name " />
+                  <Label layoutX="528.0" layoutY="265.0" text="Customer Name" />
                   <TextField fx:id="pspname" layoutX="184.0" layoutY="96.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspcode" editable="false" layoutX="184.0" layoutY="148.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspedate" editable="false" layoutX="184.0" layoutY="203.0" prefHeight="31.0" prefWidth="284.0" />
-                  <TextField fx:id="pscid" layoutX="184.0" layoutY="263.0" prefHeight="31.0" prefWidth="284.0" />
+                  <TextField fx:id="pspcid" layoutX="184.0" layoutY="263.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pscname" layoutX="713.0" layoutY="263.0" prefHeight="31.0" prefWidth="267.0" />
-                  <TextField fx:id="pspformulation" editable="false" layoutX="713.0" layoutY="148.0" prefHeight="31.0" prefWidth="267.0" />
+                  <TextField fx:id="pspgname" editable="false" layoutX="713.0" layoutY="148.0" prefHeight="31.0" prefWidth="267.0" />
                   <TextField fx:id="pspbatchid" editable="false" layoutX="713.0" layoutY="96.0" prefHeight="31.0" prefWidth="267.0" />
-                  <Button layoutX="541.0" layoutY="202.0" mnemonicParsing="false" text="Add Item" />
+                  <Button layoutX="928.0" layoutY="202.0" mnemonicParsing="false" onAction="#addItemButtonAction" text="Add" />
                   <Label layoutX="41.0" layoutY="545.0" text="Total Quantity" />
                   <Label layoutX="41.0" layoutY="589.0" text="Discount(%)" />
                   <Label layoutX="46.0" layoutY="639.0" text="Discount(Rs.)" />
-                  <Label layoutX="620.0" layoutY="532.0" text="Amount" />
-                  <Label layoutX="606.0" layoutY="601.0" text="Payment Mode" />
-                  <RadioButton layoutX="753.0" layoutY="604.0" mnemonicParsing="false" text="Cash">
+                  <Label layoutX="589.0" layoutY="559.0" text="Amount (Rs.)" />
+                  <Label layoutX="589.0" layoutY="603.0" text="Payment Mode" />
+                  <RadioButton layoutX="736.0" layoutY="606.0" mnemonicParsing="false" text="Cash">
                      <toggleGroup>
                         <ToggleGroup fx:id="g1" />
                      </toggleGroup></RadioButton>
-                  <RadioButton layoutX="824.0" layoutY="604.0" mnemonicParsing="false" text="Card" toggleGroup="$g1" />
-                  <RadioButton layoutX="897.0" layoutY="604.0" mnemonicParsing="false" text="Electronic " toggleGroup="$g1" />
+                  <RadioButton layoutX="807.0" layoutY="606.0" mnemonicParsing="false" text="Card" toggleGroup="$g1" />
+                  <RadioButton layoutX="880.0" layoutY="606.0" mnemonicParsing="false" text="Electronic " toggleGroup="$g1" />
                   <Button layoutX="710.0" layoutY="662.0" mnemonicParsing="false" text="Complete Sale !!!" />
-                  <Button layoutX="659.0" layoutY="202.0" mnemonicParsing="false" text="Clear Fields" />
-                  <Button layoutX="813.0" layoutY="202.0" mnemonicParsing="false" text="Delete Last Item" />
-                  <TextField fx:id="pspquant" layoutX="233.0" layoutY="544.0" />
+                  <Button layoutX="866.0" layoutY="518.0" mnemonicParsing="false" text="Delete Last Item" />
+                  <TextField fx:id="psptquant" disable="true" layoutX="233.0" layoutY="544.0" promptText="0.0" />
                   <TextField fx:id="pspdis" layoutX="233.0" layoutY="588.0" />
-                  <TextField fx:id="psprdis" layoutX="233.0" layoutY="647.0" />
-                  <TextField fx:id="psamount" layoutX="775.0" layoutY="532.0" />
+                  <TextField fx:id="psprdis" disable="true" layoutX="233.0" layoutY="647.0" promptText="0.0" />
+                  <TextField fx:id="psamount" layoutX="736.0" layoutY="557.0" />
+                  <Label layoutX="533.0" layoutY="205.0" text="Quantity" />
+                  <TextField fx:id="pspquant" layoutX="713.0" layoutY="202.0" prefHeight="31.0" prefWidth="193.0" />
                </children>
             </Pane>
          </children>

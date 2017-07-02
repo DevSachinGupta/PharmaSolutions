@@ -11,7 +11,7 @@ public class SoldItem {
     private SimpleStringProperty sn;
     private SimpleStringProperty iname;
     private SimpleStringProperty icode;
-    private SimpleStringProperty formulation;//molecule name
+    private SimpleStringProperty formulation;//molecule name///generic name
     private SimpleStringProperty batchno;
     private SimpleStringProperty edate;
     private SimpleFloatProperty quant;
@@ -19,7 +19,7 @@ public class SoldItem {
     private SimpleFloatProperty mrp;
 
     public SoldItem(){
-
+        this("","","","","","","",0F,0.0F,0.0F);
     }
 
     public SoldItem(String sn, String iname, String icode, String formulation, String batchno, String edate, Float quant, Float amt, Float mrp) {

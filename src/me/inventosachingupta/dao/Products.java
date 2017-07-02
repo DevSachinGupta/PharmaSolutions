@@ -8,27 +8,55 @@ import javafx.beans.property.SimpleStringProperty;
 public class Products {
 
     private SimpleStringProperty code;
-    private SimpleStringProperty  name;
+    private SimpleStringProperty name;
     private SimpleStringProperty bname;//brand name
-    private SimpleStringProperty category;
-    private SimpleStringProperty department;
+    private SimpleStringProperty genricname;
+    private SimpleStringProperty department;//Speciality
     private SimpleStringProperty type;
     private SimpleStringProperty packsize;
     private SimpleStringProperty quant;
+    private SimpleStringProperty batch;
+    private  SimpleStringProperty edate;
 
     public Products() {
-        this("","","","","","","","");
+        this("","","","","","","","","","");
     }
 
-    public Products(String code, String name, String bname, String category, String department, String type, String packsize, String quant) {
+    public Products(String code, String name, String bname, String genricname, String department, String type, String packsize, String quant,String batch,String edate) {
         this.code = new SimpleStringProperty(code);
         this.name = new SimpleStringProperty(name);
         this.bname = new SimpleStringProperty(bname);
-        this.category = new SimpleStringProperty(category);
+        this.genricname = new SimpleStringProperty(genricname);
         this.department = new SimpleStringProperty(department);
         this.type = new SimpleStringProperty(type);
         this.packsize = new SimpleStringProperty(packsize);
         this.quant = new SimpleStringProperty(quant);
+        this.batch = new SimpleStringProperty(batch);
+        this.edate = new SimpleStringProperty(edate);
+    }
+
+    public String getBatch() {
+        return batch.get();
+    }
+
+    public SimpleStringProperty batchProperty() {
+        return batch;
+    }
+
+    public void setBatch(String batch) {
+        this.batch.set(batch);
+    }
+
+    public String getEdate() {
+        return edate.get();
+    }
+
+    public SimpleStringProperty edateProperty() {
+        return edate;
+    }
+
+    public void setEdate(String edate) {
+        this.edate.set(edate);
     }
 
     public String getCode() {
@@ -67,16 +95,16 @@ public class Products {
         this.bname.set(bname);
     }
 
-    public String getCategory() {
-        return category.get();
+    public String getGenricname() {
+        return genricname.get();
     }
 
-    public SimpleStringProperty categoryProperty() {
-        return category;
+    public SimpleStringProperty genricnameProperty() {
+        return genricname;
     }
 
-    public void setCategory(String category) {
-        this.category.set(category);
+    public void setGenricname(String genricname) {
+        this.genricname.set(genricname);
     }
 
     public String getDepartment() {

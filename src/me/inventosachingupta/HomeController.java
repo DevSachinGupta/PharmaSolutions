@@ -5,6 +5,7 @@ import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -19,11 +20,14 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import me.inventosachingupta.dao.*;
+import org.controlsfx.control.textfield.AutoCompletionBinding;
+import org.controlsfx.control.textfield.TextFields;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * Created by InventoSachin on 22-06-2017.
@@ -31,6 +35,7 @@ import java.sql.SQLException;
 public class HomeController {
 
     String invoiceNO;
+    int sno;
 
     Context context=Context.getInstance();
     int quant;
@@ -42,6 +47,8 @@ public class HomeController {
     ObservableList<Patient> patientTableData = FXCollections.observableArrayList();
     ObservableList<Products> productTableData = FXCollections.observableArrayList();
     ObservableList<Sale> saleTableData = FXCollections.observableArrayList();
+    ObservableList<SoldItem> saleItemsTableData = FXCollections.observableArrayList();
+    ObservableList<String> autoCompleteProduct = FXCollections.observableArrayList();
     Connection connection;
     {
         connection = DataBase.getConnection();
@@ -49,23 +56,38 @@ public class HomeController {
    public  String cat;
 
 
+    Products cuurent_product;
+
     @FXML private StackPane dData;
     @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane,iPatient,iEmployee,iMedicine,eMedicineUpdate,eMedicineDelete,eEmployeeUpdate,eEmployeeDelete;
+
     @FXML private TableView<Employee> employeeTable;
     @FXML private TableView<Patient> patientTable;
+    @FXML private TableView<Products> productTable;
+    @FXML private TableView<Sale> saleTable;
+    @FXML private TableView<SoldItem> saleItemTable;
 
     @FXML private MenuItem aboutMenu,deleteEmployeeMenuitem,updateEmployeeMenuitem,addEmployeeMenuitem,seprateMenuItem;
+
     @FXML private TableColumn<Employee,String> etid,etname,etcontact,etjobtitle,etemail,etdepartment,etshift,ettype,etaddress,etsdate,etedate;
     @FXML private TableColumn<Patient,String> ptid,ptname,ptdob,ptage,ptdoc,ptgender,ptdiagnosis;
     @FXML private TableColumn<SoldItem,String> ssn,siname,sic,ssf,sbn,sed;
     @FXML private TableColumn<SoldItem,Float> sq,smrp,samt;
-    @FXML private TableColumn<Products,String> pdtcode,pdtname,pdtbname,pdtCategory,pdtdepartname,pdtpsize,pdtptype,pdtquantity;
+    @FXML private TableColumn<Products,String> pdtcode,pdtname,pdtbname,pdtdepartment,pdtpsize,pdtptype,pdtquantity;
     @FXML private TableColumn<Sale,String> sdtino,sdtcid,sdtcname,sdtnoi,sdtquant,sdtamt,sdtmop;
 
+    //Fields from Patient Panel
     @FXML private TextArea apDiagnosis;
     @FXML private ComboBox<String> apSex;
     @FXML private TextField apId,apName;
 
+
+    //Fields from Sales Panel
+    @FXML private TextField pspname,pspquant,pspcode,pspgname,pspcname,pspbatchid,pspedate,pspcid;
+
+
+
+    //Methods starts here
     public void initialize(){
         setColumnTypes();
         System.out.println(Context.getInstance().getCat());
@@ -89,10 +111,11 @@ public class HomeController {
                 Patient pat=new Patient(rs.getString(1),rs.getString(2),rs.getString(3),String.valueOf(rs.getInt(4)),rs.getString(5),rs.getString(6),rs.getString(7));
                 patientTableData.add(pat);
             }
-            rs=connection.createStatement().executeQuery("Select * from ProductsDetails");
+            rs=connection.createStatement().executeQuery("Select ItemCode,ItemName,BRANDNAME,GENERICNAME,Department,ItemType,PACKSIZE,Quantity,BATCHNO,EXPDATE from ProductsDetails");
             while(rs.next()){
-                Products prod=new Products(rs.getString(1),rs.getString(2),rs.getString(3),String.valueOf(rs.getInt(4)),rs.getString(5),rs.getString(6),rs.getString(7),rs.getString(8));
+                Products prod=new Products(rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10));
                 productTableData.add(prod);
+                autoCompleteProduct.add(prod.getName());
             }
             rs=connection.createStatement().executeQuery("Select * from Sale");
             while(rs.next()){
@@ -103,8 +126,28 @@ public class HomeController {
 
             employeeTable.setItems(employeeTableData);
             patientTable.setItems(patientTableData);
+            productTable.setItems(productTableData);
+            saleTable.setItems(saleTableData);
+            saleItemTable.setItems(saleItemsTableData);
+            AutoCompletionBinding<String> abc=TextFields.bindAutoCompletion(pspname,autoCompleteProduct);
+            abc.setOnAutoCompleted(new EventHandler<AutoCompletionBinding.AutoCompletionEvent<String>>() {
+                @Override
+                public void handle(AutoCompletionBinding.AutoCompletionEvent<String> event) {
+                    String s = event.getCompletion();
+                    for(Products products:productTableData){
+                        if((products.getName()).equalsIgnoreCase(s)) {
+                            pspbatchid.setText(products.getBatch());
+                            pspcode.setText(products.getCode());
+                            pspgname.setText(products.getGenricname());
+                            pspedate.setText(products.getEdate());
+                            cuurent_product = products;
+                        }
+                    }
+                    System.out.println(s+"\n"+cuurent_product);
+                }
+            });
 
-        } catch (SQLException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -140,14 +183,14 @@ public class HomeController {
 
         pdtcode.setCellValueFactory(new PropertyValueFactory<Products,String>("code"));
         pdtname.setCellValueFactory(new PropertyValueFactory<Products,String>("name"));
-        pdtCategory.setCellValueFactory(new PropertyValueFactory<Products,String>("category"));
+        //pdtCategory.setCellValueFactory(new PropertyValueFactory<Products,String>("category"));
         pdtbname.setCellValueFactory(new PropertyValueFactory<Products,String>("bname"));
-        pdtdepartname.setCellValueFactory(new PropertyValueFactory<Products,String>("department"));
+        pdtdepartment.setCellValueFactory(new PropertyValueFactory<Products,String>("department"));
         pdtpsize.setCellValueFactory(new PropertyValueFactory<Products,String>("packsize"));
         pdtptype.setCellValueFactory(new PropertyValueFactory<Products,String>("type"));
         pdtquantity.setCellValueFactory(new PropertyValueFactory<Products,String>("quant"));
 
-        ssn.setCellValueFactory(new PropertyValueFactory<SoldItem,String>(""));
+        ssn.setCellValueFactory(new PropertyValueFactory<SoldItem,String>("sn"));
         sic.setCellValueFactory(new PropertyValueFactory<SoldItem,String>("icode"));
         siname.setCellValueFactory(new PropertyValueFactory<SoldItem,String>("iname"));
         ssf.setCellValueFactory(new PropertyValueFactory<SoldItem,String>("formulation"));
@@ -160,9 +203,10 @@ public class HomeController {
 
     private void reteriveDataToObjects(){
         try {
+            ResultSet rs;
             if (veEmployeePane.isVisible()) {
                 employeeTableData.clear();
-                ResultSet rs=connection.createStatement().executeQuery("Select emp_id,emp_name,emp_phone,emp_email,emp_job_title,emp_department,emp_shift,emp_type,emp_address,emp_start_date,emp_end_date  from employeedata");
+                 rs=connection.createStatement().executeQuery("Select emp_id,emp_name,emp_phone,emp_email,emp_job_title,emp_department,emp_shift,emp_type,emp_address,emp_start_date,emp_end_date  from employeedata");
                 while (rs.next()){
                     Employee row=new Employee(rs.getString(1),rs.getString(2),String.valueOf(rs.getLong(3)),rs.getString(4)
                             ,rs.getString(5),rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10),rs.getString(11));
@@ -171,18 +215,22 @@ public class HomeController {
             }
             if (vPatientPane.isVisible()) {
                 patientTableData.clear();
-                ResultSet rs=connection.createStatement().executeQuery("Select * from PatientDetails");
+                rs=connection.createStatement().executeQuery("Select * from PatientDetails");
                 while(rs.next()){
                     Patient pat=new Patient(rs.getString(1),rs.getString(2),rs.getString(3),String.valueOf(rs.getInt(4)),rs.getString(5),rs.getString(6),rs.getString(7));
                     patientTableData.add(pat);
                 }
             }
             if (vProductPane.isVisible()) {
-
+                rs=connection.createStatement().executeQuery("Select ItemCode,ItemName,BRANDNAME,Category,Department,ItemType,PACKSIZE,Quantity,GENERICNAME,EXPDATE from ProductsDetails");
+                while(rs.next()){
+                    Products prod=new Products(rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10));
+                    productTableData.add(prod);
+                }
             }
             if (vSalePane.isVisible()) {
                 saleTableData.clear();
-                ResultSet rs=connection.createStatement().executeQuery("Select * from Sale");
+                rs=connection.createStatement().executeQuery("Select * from Sale");
                 while(rs.next()){
                     Sale pat=new Sale(rs.getString(1),rs.getString(2),rs.getString(3),String.valueOf(rs.getInt(4)),rs.getString(5),rs.getString(6),rs.getString(7));
                     saleTableData.add(pat);
@@ -194,21 +242,18 @@ public class HomeController {
     @FXML public  void createSale(){
 
     }
-
     @FXML public void addEmployee(){
 
     }
     @FXML public void updateEmployee(){
 
     }
-
     @FXML public void addPatient(){
 
     }
     @FXML public void updatePaitent(){
 
     }
-
     @FXML public void addMedicine(){
 
     }
@@ -216,8 +261,9 @@ public class HomeController {
 
     }
 
-    public void searchData(){
+    @FXML public void addItemButtonAction(){
 
+        saleItemsTableData.add(new SoldItem(invoiceNO,String.valueOf(sno),cuurent_product.getName(),cuurent_product.getCode(),cuurent_product.getGenricname(),cuurent_product.getBatch(),cuurent_product.getEdate(),Float.parseFloat(pspquant.getText()),0F,0F));
     }
 
     /**
@@ -225,15 +271,19 @@ public class HomeController {
      */
     @FXML public void viewSaleAction(){
         changeTop(vSalePane);
+        reteriveDataToObjects();
     }
     @FXML public void viewPatientAction(){
         changeTop(vPatientPane);
+        reteriveDataToObjects();
     }
     @FXML public void viewEmployeeAction(){
         changeTop(veEmployeePane);
+        reteriveDataToObjects();
     }
     @FXML public void viewProductAction(){
         changeTop(vProductPane);
+        reteriveDataToObjects();
     }
     @FXML public void createSaleAction(){
         changeTop(salePane);
