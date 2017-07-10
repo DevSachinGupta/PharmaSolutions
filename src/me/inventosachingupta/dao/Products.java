@@ -16,13 +16,14 @@ public class Products {
     private SimpleStringProperty packsize;
     private SimpleStringProperty quant;
     private SimpleStringProperty batch;
-    private  SimpleStringProperty edate;
+    private SimpleStringProperty edate;
+    private SimpleStringProperty mrp;
 
     public Products() {
-        this("","","","","","","","","","");
+        this("","","","","","","","","","","");
     }
 
-    public Products(String code, String name, String bname, String genricname, String department, String type, String packsize, String quant,String batch,String edate) {
+    public Products(String code, String name, String bname, String genricname, String department, String type, String packsize, String quant,String batch,String edate,String mrp) {
         this.code = new SimpleStringProperty(code);
         this.name = new SimpleStringProperty(name);
         this.bname = new SimpleStringProperty(bname);
@@ -33,10 +34,23 @@ public class Products {
         this.quant = new SimpleStringProperty(quant);
         this.batch = new SimpleStringProperty(batch);
         this.edate = new SimpleStringProperty(edate);
+        this.mrp = new SimpleStringProperty(mrp);
     }
 
     public String getBatch() {
         return batch.get();
+    }
+
+    public String getMrp() {
+        return mrp.get();
+    }
+
+    public SimpleStringProperty mrpProperty() {
+        return mrp;
+    }
+
+    public void setMrp(String mrp) {
+        this.mrp.set(mrp);
     }
 
     public SimpleStringProperty batchProperty() {

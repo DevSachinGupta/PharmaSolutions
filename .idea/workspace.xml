@@ -2,20 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Controller.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/HomeController.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/HomeController.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/DataBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/HomeController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/HomeController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Main.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Products.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Products.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Sale.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Sale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/SoldItem.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/SoldItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms.db" afterPath="$PROJECT_DIR$/pms.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PharmacyManagementSystem.iml" afterPath="$PROJECT_DIR$/PharmacyManagementSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/about.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/about.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/home.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/Controller.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/HomeController.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/login.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/myStyle.css" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/myStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/about.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/about.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/home.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/login.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/myStyle.css" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/myStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/Main.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/about.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/about.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/login.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/Context.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/aid/Context.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/Controller.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/DataBase.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/HomeController.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,13 +97,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="521">
+              <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
               <folding>
-                <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+                <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
               </folding>
             </state>
           </provider>
@@ -97,12 +111,9 @@
       </file>
       <file leaf-file-name="home.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="236" column="29" lean-forward="false" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
+            <state relative-caret-position="2415">
+              <caret line="178" column="39" lean-forward="false" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
               <folding>
                 <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
                 <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
@@ -110,55 +121,149 @@
                 <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
                 <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
                 <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-                <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+              <folding>
+                <element signature="e#658#659#0" expanded="false" />
+                <element signature="e#712#713#0" expanded="false" />
+                <element signature="e#1542#1543#0" expanded="false" />
+                <element signature="e#1576#1577#0" expanded="false" />
+                <element signature="e#1606#1607#0" expanded="false" />
+                <element signature="e#1638#1639#0" expanded="false" />
+                <element signature="e#1687#1688#0" expanded="false" />
+                <element signature="e#1713#1714#0" expanded="false" />
+                <element signature="e#1751#1752#0" expanded="false" />
+                <element signature="e#1784#1785#0" expanded="false" />
+                <element signature="e#1835#1836#0" expanded="false" />
+                <element signature="e#1863#1864#0" expanded="false" />
+                <element signature="e#1905#1906#0" expanded="false" />
+                <element signature="e#1942#1943#0" expanded="false" />
+                <element signature="e#1974#1975#0" expanded="false" />
+                <element signature="e#2008#2009#0" expanded="false" />
+                <element signature="e#2059#2060#0" expanded="false" />
+                <element signature="e#2087#2088#0" expanded="false" />
+                <element signature="e#2129#2130#0" expanded="false" />
+                <element signature="e#2166#2167#0" expanded="false" />
+                <element signature="e#2197#2198#0" expanded="false" />
+                <element signature="e#2230#2231#0" expanded="false" />
+                <element signature="e#2280#2281#0" expanded="false" />
+                <element signature="e#2307#2308#0" expanded="false" />
+                <element signature="e#2347#2348#0" expanded="false" />
+                <element signature="e#2382#2383#0" expanded="false" />
+                <element signature="e#2413#2414#0" expanded="false" />
+                <element signature="e#2446#2447#0" expanded="false" />
+                <element signature="e#2496#2497#0" expanded="false" />
+                <element signature="e#2523#2524#0" expanded="false" />
+                <element signature="e#2563#2564#0" expanded="false" />
+                <element signature="e#2598#2599#0" expanded="false" />
+                <element signature="e#2630#2631#0" expanded="false" />
+                <element signature="e#2664#2665#0" expanded="false" />
+                <element signature="e#2715#2716#0" expanded="false" />
+                <element signature="e#2743#2744#0" expanded="false" />
+                <element signature="e#2785#2786#0" expanded="false" />
+                <element signature="e#2822#2823#0" expanded="false" />
+                <element signature="e#2859#2860#0" expanded="false" />
+                <element signature="e#2898#2899#0" expanded="false" />
+                <element signature="e#2954#2955#0" expanded="false" />
+                <element signature="e#2987#2988#0" expanded="false" />
+                <element signature="e#3039#3040#0" expanded="false" />
+                <element signature="e#3086#3087#0" expanded="false" />
+                <element signature="e#3123#3124#0" expanded="false" />
+                <element signature="e#3162#3163#0" expanded="false" />
+                <element signature="e#3218#3219#0" expanded="false" />
+                <element signature="e#3251#3252#0" expanded="false" />
+                <element signature="e#3303#3304#0" expanded="false" />
+                <element signature="e#3350#3351#0" expanded="false" />
+                <element signature="e#3381#3382#0" expanded="false" />
+                <element signature="e#3414#3415#0" expanded="false" />
+                <element signature="e#3464#3465#0" expanded="false" />
+                <element signature="e#3491#3492#0" expanded="false" />
+                <element signature="e#3531#3532#0" expanded="false" />
+                <element signature="e#3566#3567#0" expanded="false" />
+                <element signature="e#3601#3602#0" expanded="false" />
+                <element signature="e#3638#3639#0" expanded="false" />
+                <element signature="e#3692#3693#0" expanded="false" />
+                <element signature="e#3723#3724#0" expanded="false" />
+                <element signature="e#3771#3772#0" expanded="false" />
+                <element signature="e#3814#3815#0" expanded="false" />
+                <element signature="e#3846#3847#0" expanded="false" />
+                <element signature="e#3880#3881#0" expanded="false" />
+                <element signature="e#3931#3932#0" expanded="false" />
+                <element signature="e#3959#3960#0" expanded="false" />
+                <element signature="e#4001#4002#0" expanded="false" />
+                <element signature="e#4038#4039#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/HomeController.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="130" column="53" lean-forward="false" selection-start-line="130" selection-start-column="53" selection-end-line="130" selection-end-column="53" />
+            <state relative-caret-position="485">
+              <caret line="376" column="22" lean-forward="false" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
               <folding>
+                <element signature="initializer##0;class#HomeController#0" expanded="false" />
                 <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
                 <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
                 <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
                 <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
+                <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
+                <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
+                <element signature="method#setApAge#0;class#HomeController#0" expanded="false" />
                 <element signature="method#viewSaleAction#0;class#HomeController#0" expanded="false" />
                 <element signature="method#viewPatientAction#0;class#HomeController#0" expanded="false" />
                 <element signature="method#viewEmployeeAction#0;class#HomeController#0" expanded="false" />
                 <element signature="method#viewProductAction#0;class#HomeController#0" expanded="false" />
                 <element signature="method#aboutMenuAcion#0;class#HomeController#0" expanded="false" />
+                <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
                 <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
-                <marker date="1499018418884" expanded="true" signature="3864:4013" ph="Select emp_i... employeedata" />
-                <marker date="1499018418884" expanded="true" signature="4425:4453" ph="Select * fro... PatientDetails" />
-                <marker date="1499018418884" expanded="true" signature="4769:4883" ph="Select * fro... Products" />
-                <marker date="1499018418884" expanded="true" signature="4769:4890" ph="Select * fro... ProductsDetails" />
-                <marker date="1499018418884" expanded="true" signature="5303:5321" ph="Select * fro... Sale" />
-                <marker date="1499018418884" expanded="true" signature="10944:11093" ph="Select emp_i... employeedata" />
-                <marker date="1499018418884" expanded="true" signature="11629:11657" ph="Select * fro... PatientDetails" />
-                <marker date="1499018418884" expanded="true" signature="12051:12173" ph="Select ItemC... ProductsDetails" />
-                <marker date="1499018418884" expanded="true" signature="12643:12661" ph="Select * fro... Sale" />
+                <marker date="1499705349797" expanded="true" signature="4442:4591" ph="Select emp_i... employeedata" />
+                <marker date="1499705349797" expanded="true" signature="5003:5031" ph="Select * fro... PatientDetails" />
+                <marker date="1499705349797" expanded="true" signature="5347:5465" ph="Select * fro... Products" />
+                <marker date="1499705349797" expanded="true" signature="5347:5472" ph="Select * fro... ProductsDetails" />
+                <marker date="1499705349797" expanded="true" signature="5902:5920" ph="Select * fro... Sale" />
+                <marker date="1499705349797" expanded="true" signature="11543:11692" ph="Select emp_i... employeedata" />
+                <marker date="1499705349797" expanded="true" signature="12228:12256" ph="Select * fro... PatientDetails" />
+                <marker date="1499705349797" expanded="true" signature="12650:12776" ph="Select ItemC... ProductsDetails" />
+                <marker date="1499705349797" expanded="true" signature="13263:13281" ph="Select * fro... Sale" />
+                <marker date="1499705349797" expanded="true" signature="18229:18247" ph="select patie... " />
+                <marker date="1499705349797" expanded="true" signature="18229:18266" ph="select patie... PatientDetails" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoldItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
+      <file leaf-file-name="AgeCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="1050">
+              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1092">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,6 +286,8 @@
       <find>1</find>
       <find>SimpleFloatProperty</find>
       <find>SimpleStringProperty</find>
+      <find>loat</find>
+      <find>cd</find>
     </findStrings>
     <replaceStrings>
       <replace>new SimpleStringProperty(</replace>
@@ -188,6 +295,7 @@
       <replace>1</replace>
       <replace>Float</replace>
       <replace>String</replace>
+      <replace>now</replace>
     </replaceStrings>
   </component>
   <component name="FindManager">
@@ -226,9 +334,13 @@
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/Controller.java" />
-        <option value="$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java" />
       </list>
     </option>
   </component>
@@ -596,7 +708,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -637,9 +748,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PharmacyManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PharmacyManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventosachingupta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -668,6 +802,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2375297" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="me.inventosachingupta.controllers" />
+      <recent name="me.inventosachingupta.aid" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\@My Projects\PharmacyManagementSystem" />
     </key>
@@ -1098,12 +1236,15 @@
       <workItem from="1498157395838" duration="10605000" />
       <workItem from="1498386499989" duration="14617000" />
       <workItem from="1498728995315" duration="1206000" />
-      <workItem from="1498762821010" duration="16366000" />
+      <workItem from="1498762821010" duration="18069000" />
+      <workItem from="1499196646033" duration="16475000" />
+      <workItem from="1499701781456" duration="158000" />
+      <workItem from="1499702044527" duration="1713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156562000" />
+    <option name="totallyTimeSpent" value="176611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1058" extended-state="7" />
@@ -1159,7 +1300,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1168,29 +1309,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-            <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -1205,20 +1324,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
           <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
@@ -1229,15 +1345,14 @@
             <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-            <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1252,20 +1367,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
@@ -1276,12 +1388,11 @@
             <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-            <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
@@ -1291,20 +1402,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
@@ -1315,12 +1423,11 @@
             <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-            <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
           </folding>
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
@@ -1330,12 +1437,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>
@@ -1355,9 +1462,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1368,31 +1472,30 @@
             <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
             <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-            <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>
@@ -1405,22 +1508,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>
@@ -1447,14 +1550,14 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/69084b68-df95-4d26-b215-8b4d34c409c9/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
@@ -1464,7 +1567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
@@ -1488,22 +1591,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/about.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
@@ -1513,17 +1609,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding>
-            <element signature="e#387#388#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#565#566#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1540,7 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1302">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1548,7 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1556,29 +1650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-979">
           <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="236" column="29" lean-forward="false" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#columns#0;n#TableView#0;n#children#0;n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Pane#1;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <marker date="1499018292954" expanded="true" signature="19259:19291" ph="..." />
-            <marker date="1499018292954" expanded="true" signature="19259:19311" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1586,27 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1618,19 +1668,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <marker date="1498806997075" expanded="true" signature="1491:1531" ph="SELECT emp_i... employeedata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="504">
           <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
             <element signature="e#667#668#0" expanded="true" />
@@ -1639,31 +1679,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="130" column="53" lean-forward="false" selection-start-line="130" selection-start-column="53" selection-end-line="130" selection-end-column="53" />
+        <state relative-caret-position="1092">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="178" column="39" lean-forward="false" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
           <folding>
+            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+            <element signature="n#Pane#0;n#children#0;n#StackPane#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding>
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1576#1577#0" expanded="false" />
+            <element signature="e#1606#1607#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1713#1714#0" expanded="false" />
+            <element signature="e#1751#1752#0" expanded="false" />
+            <element signature="e#1784#1785#0" expanded="false" />
+            <element signature="e#1835#1836#0" expanded="false" />
+            <element signature="e#1863#1864#0" expanded="false" />
+            <element signature="e#1905#1906#0" expanded="false" />
+            <element signature="e#1942#1943#0" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2008#2009#0" expanded="false" />
+            <element signature="e#2059#2060#0" expanded="false" />
+            <element signature="e#2087#2088#0" expanded="false" />
+            <element signature="e#2129#2130#0" expanded="false" />
+            <element signature="e#2166#2167#0" expanded="false" />
+            <element signature="e#2197#2198#0" expanded="false" />
+            <element signature="e#2230#2231#0" expanded="false" />
+            <element signature="e#2280#2281#0" expanded="false" />
+            <element signature="e#2307#2308#0" expanded="false" />
+            <element signature="e#2347#2348#0" expanded="false" />
+            <element signature="e#2382#2383#0" expanded="false" />
+            <element signature="e#2413#2414#0" expanded="false" />
+            <element signature="e#2446#2447#0" expanded="false" />
+            <element signature="e#2496#2497#0" expanded="false" />
+            <element signature="e#2523#2524#0" expanded="false" />
+            <element signature="e#2563#2564#0" expanded="false" />
+            <element signature="e#2598#2599#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2664#2665#0" expanded="false" />
+            <element signature="e#2715#2716#0" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2785#2786#0" expanded="false" />
+            <element signature="e#2822#2823#0" expanded="false" />
+            <element signature="e#2859#2860#0" expanded="false" />
+            <element signature="e#2898#2899#0" expanded="false" />
+            <element signature="e#2954#2955#0" expanded="false" />
+            <element signature="e#2987#2988#0" expanded="false" />
+            <element signature="e#3039#3040#0" expanded="false" />
+            <element signature="e#3086#3087#0" expanded="false" />
+            <element signature="e#3123#3124#0" expanded="false" />
+            <element signature="e#3162#3163#0" expanded="false" />
+            <element signature="e#3218#3219#0" expanded="false" />
+            <element signature="e#3251#3252#0" expanded="false" />
+            <element signature="e#3303#3304#0" expanded="false" />
+            <element signature="e#3350#3351#0" expanded="false" />
+            <element signature="e#3381#3382#0" expanded="false" />
+            <element signature="e#3414#3415#0" expanded="false" />
+            <element signature="e#3464#3465#0" expanded="false" />
+            <element signature="e#3491#3492#0" expanded="false" />
+            <element signature="e#3531#3532#0" expanded="false" />
+            <element signature="e#3566#3567#0" expanded="false" />
+            <element signature="e#3601#3602#0" expanded="false" />
+            <element signature="e#3638#3639#0" expanded="false" />
+            <element signature="e#3692#3693#0" expanded="false" />
+            <element signature="e#3723#3724#0" expanded="false" />
+            <element signature="e#3771#3772#0" expanded="false" />
+            <element signature="e#3814#3815#0" expanded="false" />
+            <element signature="e#3846#3847#0" expanded="false" />
+            <element signature="e#3880#3881#0" expanded="false" />
+            <element signature="e#3931#3932#0" expanded="false" />
+            <element signature="e#3959#3960#0" expanded="false" />
+            <element signature="e#4001#4002#0" expanded="false" />
+            <element signature="e#4038#4039#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="376" column="22" lean-forward="false" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
+          <folding>
+            <element signature="initializer##0;class#HomeController#0" expanded="false" />
             <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
             <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
             <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
             <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
             <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
+            <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
+            <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
+            <element signature="method#setApAge#0;class#HomeController#0" expanded="false" />
             <element signature="method#viewSaleAction#0;class#HomeController#0" expanded="false" />
             <element signature="method#viewPatientAction#0;class#HomeController#0" expanded="false" />
             <element signature="method#viewEmployeeAction#0;class#HomeController#0" expanded="false" />
             <element signature="method#viewProductAction#0;class#HomeController#0" expanded="false" />
             <element signature="method#aboutMenuAcion#0;class#HomeController#0" expanded="false" />
+            <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
             <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
-            <marker date="1499018418884" expanded="true" signature="3864:4013" ph="Select emp_i... employeedata" />
-            <marker date="1499018418884" expanded="true" signature="4425:4453" ph="Select * fro... PatientDetails" />
-            <marker date="1499018418884" expanded="true" signature="4769:4883" ph="Select * fro... Products" />
-            <marker date="1499018418884" expanded="true" signature="4769:4890" ph="Select * fro... ProductsDetails" />
-            <marker date="1499018418884" expanded="true" signature="5303:5321" ph="Select * fro... Sale" />
-            <marker date="1499018418884" expanded="true" signature="10944:11093" ph="Select emp_i... employeedata" />
-            <marker date="1499018418884" expanded="true" signature="11629:11657" ph="Select * fro... PatientDetails" />
-            <marker date="1499018418884" expanded="true" signature="12051:12173" ph="Select ItemC... ProductsDetails" />
-            <marker date="1499018418884" expanded="true" signature="12643:12661" ph="Select * fro... Sale" />
+            <marker date="1499705349797" expanded="true" signature="4442:4591" ph="Select emp_i... employeedata" />
+            <marker date="1499705349797" expanded="true" signature="5003:5031" ph="Select * fro... PatientDetails" />
+            <marker date="1499705349797" expanded="true" signature="5347:5465" ph="Select * fro... Products" />
+            <marker date="1499705349797" expanded="true" signature="5347:5472" ph="Select * fro... ProductsDetails" />
+            <marker date="1499705349797" expanded="true" signature="5902:5920" ph="Select * fro... Sale" />
+            <marker date="1499705349797" expanded="true" signature="11543:11692" ph="Select emp_i... employeedata" />
+            <marker date="1499705349797" expanded="true" signature="12228:12256" ph="Select * fro... PatientDetails" />
+            <marker date="1499705349797" expanded="true" signature="12650:12776" ph="Select ItemC... ProductsDetails" />
+            <marker date="1499705349797" expanded="true" signature="13263:13281" ph="Select * fro... Sale" />
+            <marker date="1499705349797" expanded="true" signature="18229:18247" ph="select patie... " />
+            <marker date="1499705349797" expanded="true" signature="18229:18266" ph="select patie... PatientDetails" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
           </folding>
         </state>
       </provider>

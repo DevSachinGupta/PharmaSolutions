@@ -21,7 +21,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
-<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.inventosachingupta.HomeController">
+<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.inventosachingupta.controllers.HomeController">
    <children>
       <MenuBar prefHeight="32.0" prefWidth="1023.0">
         <menus>
@@ -85,7 +85,7 @@
             <Pane fx:id="vSalePane" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Sale History" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                  <TableView fx:id="saleTable" layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
+                  <TableView fx:id="saleTable" layoutY="110.0" prefHeight="600.0" prefWidth="1023.0">
                     <columns>
                       <TableColumn fx:id="sdtino" prefWidth="127.0" text="Invoice No" />
                       <TableColumn fx:id="sdtcid" prefWidth="125.0" text="Customer ID" />
@@ -101,7 +101,7 @@
             <Pane fx:id="veEmployeePane" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="26.0" prefHeight="50.0" prefWidth="1023.0" text="Employee Details" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                  <TableView fx:id="employeeTable" layoutY="122.0" prefHeight="584.0" prefWidth="1025.0">
+                  <TableView fx:id="employeeTable" layoutY="122.0" prefHeight="600.0" prefWidth="1025.0">
                      <columns>
                          <TableColumn fx:id="etid" prefWidth="75.0" text="ID" />
                         <TableColumn fx:id="etname" prefWidth="75.0" text="Name" />
@@ -140,7 +140,7 @@
             <Pane fx:id="vPatientPane" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Patient Details" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                  <TableView fx:id="patientTable" layoutY="110.0" prefHeight="584.0" prefWidth="1023.0">
+                  <TableView fx:id="patientTable" layoutY="110.0" prefHeight="624.0" prefWidth="1023.0">
                      <columns>
                         <TableColumn fx:id="ptid" prefWidth="70.0" text="ID" />
                         <TableColumn fx:id="ptname" prefWidth="150.0" text="Name" />
@@ -170,13 +170,16 @@
                   <Label layoutX="59.0" layoutY="260.0" text="Date Of Birth" />
                   <Label layoutX="59.0" layoutY="325.0" text="Sex / Gender" />
                   <Label layoutX="502.0" layoutY="263.0" text="Age" />
-                  <DatePicker fx:id="apDOB" layoutX="250.0" layoutY="261.0" />
+                  <Label layoutX="677.0" layoutY="266.0" text="years" />
+                  <Label layoutX="59.0" layoutY="390.0" text="Doctor Name" />
                   <Label layoutX="59.0" layoutY="441.0" text="Diagnosis" />
                   <TextField fx:id="apId" layoutX="250.0" layoutY="138.0" prefHeight="31.0" prefWidth="306.0" />
                   <TextField fx:id="apName" layoutX="250.0" layoutY="197.0" prefHeight="31.0" prefWidth="306.0" />
+                  <DatePicker fx:id="apDOB" layoutX="250.0" layoutY="261.0" onAction="#setApAge" />
+                  <TextField fx:id="apdname" layoutX="250.0" layoutY="390.0" prefHeight="31.0" prefWidth="306.0" />
+                  <TextArea fx:id="apDiagnosis" layoutX="250.0" layoutY="441.0" prefHeight="176.0" prefWidth="483.0" wrapText="true" />
                   <TextField fx:id="apAge" layoutX="594.0" layoutY="261.0" prefHeight="31.0" prefWidth="72.0" />
-                  <TextArea fx:id="apDiagnosis" layoutX="250.0" layoutY="441.0" prefHeight="176.0" prefWidth="483.0" />
-                   <ComboBox fx:id="apSex" layoutX="250.0" layoutY="323.0" prefHeight="31.0" prefWidth="235.0">
+                   <ComboBox fx:id="apSex" layoutX="250.0" layoutY="323.0" prefHeight="31.0" prefWidth="235.0" promptText="Select Sex">
                        <items>
                            <FXCollections fx:factory="observableArrayList">
                                <String fx:value="Male" />
@@ -187,11 +190,13 @@
                    </ComboBox>
                   <Button layoutX="203.0" layoutY="669.0" mnemonicParsing="false" text="Clear" />
                   <Button layoutX="367.0" layoutY="669.0" mnemonicParsing="false" onAction="#addPatient" text="Add Patient &gt;&gt;" />
-                  <Label layoutX="677.0" layoutY="266.0" text="years" />
-                  <TextField layoutX="250.0" layoutY="390.0" prefHeight="31.0" prefWidth="306.0" />
-                  <Label layoutX="59.0" layoutY="390.0" text="Doctor Name" />
                </children></Pane>
-            <Pane fx:id="iMedicine" prefHeight="200.0" prefWidth="200.0" visible="false">
+            <Pane fx:id="iMedicineE" prefHeight="200.0" prefWidth="200.0" visible="false">
+               <children>
+                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="21.0" prefHeight="50.0" prefWidth="951.0" text="Add Pharma Product" />
+               </children>
+            </Pane>
+            <Pane fx:id="iMedicineA" prefHeight="200.0" prefWidth="200.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="21.0" prefHeight="50.0" prefWidth="951.0" text="Add Pharma Product" />
                </children></Pane>
@@ -232,7 +237,7 @@
                   <Label layoutX="36.0" layoutY="204.0" text="Expiry Date" />
                   <Label layoutX="41.0" layoutY="265.0" text="Customer ID" />
                   <Label layoutX="529.0" layoutY="100.0" text="Batch No." />
-                  <Label layoutX="529.0" layoutY="150.0" text="Generic Name " />
+                  <Label layoutX="529.0" layoutY="150.0" text="M.R.P." />
                   <Label layoutX="528.0" layoutY="265.0" text="Customer Name" />
                   <TextField fx:id="pspname" layoutX="184.0" layoutY="96.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspcode" editable="false" layoutX="184.0" layoutY="148.0" prefHeight="31.0" prefWidth="284.0" />
@@ -256,7 +261,7 @@
                   <Button layoutX="710.0" layoutY="662.0" mnemonicParsing="false" text="Complete Sale !!!" />
                   <Button layoutX="866.0" layoutY="518.0" mnemonicParsing="false" text="Delete Last Item" />
                   <TextField fx:id="psptquant" disable="true" layoutX="233.0" layoutY="544.0" promptText="0.0" />
-                  <TextField fx:id="pspdis" layoutX="233.0" layoutY="588.0" />
+                  <TextField fx:id="pspdis" layoutX="233.0" layoutY="588.0" promptText="0" text="0" />
                   <TextField fx:id="psprdis" disable="true" layoutX="233.0" layoutY="647.0" promptText="0.0" />
                   <TextField fx:id="psamount" layoutX="736.0" layoutY="557.0" />
                   <Label layoutX="533.0" layoutY="205.0" text="Quantity" />

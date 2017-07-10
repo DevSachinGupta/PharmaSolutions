@@ -45,8 +45,10 @@
     -fx-background-color: linear-gradient(#215f00, #52c234);
 }
 
-
-
 .stackpane {
     -fx-animated: true;
+}
+
+.datepicker {
+
 }
