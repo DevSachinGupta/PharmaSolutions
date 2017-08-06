@@ -30,9 +30,27 @@ public class DataBase {
         return connection;
     }
 
-    public static ResultSet selectTableData(String sql) throws SQLException {
+    public  ResultSet selectTableData(String sql) throws SQLException {
         Statement st=connection.createStatement();
         ResultSet rs=st.executeQuery(sql);
         return rs;
     }
+
+    public static int insertData(String sql){
+        int res = -1;
+        try {
+            if (connection == null) {
+                DriverManager.registerDriver(new JDBC());
+                sqLiteDataSource=new SQLiteDataSource();
+                sqLiteDataSource.setUrl("jdbc:sqlite:pms.db");
+                connection=sqLiteDataSource.getConnection();
+            }
+            Statement st = connection.createStatement();
+            res = st.executeUpdate(sql);
+            connection.commit();
+        }
+        catch(Exception e){}
+        return res;
+    }
+
 }

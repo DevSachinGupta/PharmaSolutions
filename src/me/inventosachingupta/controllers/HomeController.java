@@ -23,6 +23,7 @@ import javafx.util.Duration;
 import me.inventosachingupta.Main;
 import me.inventosachingupta.aid.AgeCalculator;
 import me.inventosachingupta.aid.Context;
+import me.inventosachingupta.aid.Convert2Int;
 import me.inventosachingupta.aid.DataBase;
 import me.inventosachingupta.dao.*;
 import org.controlsfx.control.textfield.AutoCompletionBinding;
@@ -45,9 +46,13 @@ public class HomeController {
     String invoiceNO;
     DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     int sno=1;
+    float total_quant = 0 ;
+    float total_amt = 0 ;
 
     private static int invoiceNoConstant = 1;
 
+
+    Alert error_alert = new Alert(Alert.AlertType.ERROR);
 
     ObservableList<Employee> employeeTableData = FXCollections.observableArrayList();
     ObservableList<Patient> patientTableData = FXCollections.observableArrayList();
@@ -64,7 +69,7 @@ public class HomeController {
     Products cuurent_product;
 
     @FXML private StackPane dData;
-    @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane,iPatient,iEmployee,iMedicineE,iMedicineA,eMedicineUpdate,eMedicineDelete,eEmployeeUpdate,eEmployeeDelete;
+    @FXML private Pane vSalePane,veEmployeePane,vProductPane,vPatientPane,salePane,iPatient,iEmployee,iMedicineA,iMedicineE,eMedicineUpdate,eMedicineDelete,eEmployeeUpdate,eEmployeeDelete;
 
     @FXML private TableView<Employee> employeeTable;
     @FXML private TableView<Patient> patientTable;
@@ -89,13 +94,15 @@ public class HomeController {
     @FXML private DatePicker apDOB;
 
     //Fields from Sales Panel
-    @FXML private TextField pspname,pspquant,pspcode,pspgname,pspcname,pspbatchid,pspedate,pspcid;
-
+    @FXML private TextField pspname,pspquant,pspcode,pspgname,pspcname,pspbatchid,pspedate,pspcid,psptquant,psptamt;
+    @FXML private ToggleGroup g1;
 
 
     //Methods starts here
-    public void initialize(){
-        System.out.println(generatePatietId());
+    public void initialize() {
+        error_alert.setHeaderText("There is a error.\n The Error is given below");
+        error_alert.setTitle("Error");
+        apId.setText(generatePatietId());
         setColumnTypes();
         System.out.println(Context.getInstance().getCat());
         cat=Context.getInstance().getCat();
@@ -150,7 +157,7 @@ public class HomeController {
                             cuurent_product = products;
                         }
                     }
-                    System.out.println(s+"\n"+cuurent_product);
+                    //System.out.println(s+"\n"+cuurent_product);
                 }
             });
 
@@ -246,8 +253,21 @@ public class HomeController {
         }catch(Exception ex){}
     }
 
-    @FXML public  void createSale(){
+    @FXML public  void createSale() {
+        String paymode = g1.getSelectedToggle().getUserData().toString();
+        String cid = pspcid.getText();
+        String cname = pspcname.getText();
 
+        if(cid.equalsIgnoreCase("") || cname.equalsIgnoreCase("")){
+            error_alert.setContentText("Enter The value of either Customer Name or Customer ID.");
+            error_alert.showAndWait();
+        }
+        else {
+            invoiceNO = generateInvoiceNo();
+            Sale s = new Sale(invoiceNO,cname,cid,String.valueOf(total_quant),String.valueOf(sno),String.valueOf(total_amt),paymode);
+
+            invoiceNoConstant = invoiceNoConstant + 1;
+        }
     }
     @FXML public void addEmployee(){
 
@@ -256,6 +276,7 @@ public class HomeController {
 
     }
     @FXML public void addPatient(){
+        String id = apId.getText();
         String name=apName.getText();
         String dname=apdname.getText();
         String diag=apDiagnosis.getText();
@@ -263,8 +284,9 @@ public class HomeController {
         LocalDate ld=apDOB.getValue();
         String dob = String.valueOf(dateTimeFormatter.format(ld));
         int age = AgeCalculator.calculateAge(ld);
-        String sql="insert into PatientDetails values('"+name+"',";
-        System.out.println(name+" "+age+" "+dname+" "+diag+" "+sex+" "+dob);
+        String sql="insert into PatientDetails values('"+id+"','"+name+"','"+dob+"','"+age+"','"+sex+"','"+dname+"','"+diag+"');";
+        int i = DataBase.insertData(sql);
+        System.out.println(name+" "+age+" "+dname+" "+diag+" "+sex+" "+dob+ " "+i);
     }
     @FXML public void updatePaitent(){
 
@@ -277,12 +299,41 @@ public class HomeController {
     }
 
     @FXML public void addItemButtonAction(){
-        float ps=Integer.parseInt(cuurent_product.getPacksize().replace('X','*'));
+        float ps= Convert2Int.c2i(cuurent_product.getPacksize());
         float tmrp=Float.parseFloat(cuurent_product.getMrp());
         float tquany=Float.parseFloat(pspquant.getText());
         float tamt=(tmrp/ps)*tquany;
+        total_amt = total_amt+tamt;
+        total_quant = total_quant+tquany;
         saleItemsTableData.add(new SoldItem(invoiceNO,String.valueOf(sno),cuurent_product.getName(),cuurent_product.getCode(),cuurent_product.getGenricname(),cuurent_product.getBatch(),cuurent_product.getEdate(),tquany,tamt,tmrp));
         sno=sno+1;
+        pspname.setText("");
+        pspbatchid.setText("");
+        pspcode.setText("");
+        pspgname.setText("");
+        pspedate.setText("");
+        pspquant.setText("");
+        psptamt.setText(String.valueOf(total_amt));
+        psptquant.setText(String.valueOf(total_quant));
+    }
+    @FXML public void deleteItemButtonAction(){
+        int tsn = 1;
+        //int in = saleTable.getSelectionModel().getSelectedIndex();
+        SoldItem in = saleItemTable.getSelectionModel().getSelectedItem();
+        //saleItemTable.getItems().remove(in);
+        saleItemsTableData.remove(in);
+        System.out.println(in);
+        for(SoldItem si:saleItemsTableData){
+            //tsn = tsn+1;
+            si.setSn(String.valueOf(tsn));
+            tsn = tsn+1;
+        }
+        sno = tsn;
+        total_amt = total_amt - in.getAmt();
+        total_quant = total_quant - in.getQuant();
+        psptamt.setText(String.valueOf(total_amt));
+        psptquant.setText(String.valueOf(total_quant));
+
     }
     @FXML public void setApAge(){
         LocalDate ld=apDOB.getValue();
@@ -376,11 +427,16 @@ public class HomeController {
     private String generatePatietId(){
         String id = "1";
         try{
-            ResultSet rs = connection.createStatement().executeQuery("select patient_id FROM PatientDetails");
-            rs.last();
-            id = rs.getString(1);
-            System.out.println(id);
-        }catch (Exception exc){}
+            ResultSet rs = connection.createStatement(ResultSet.TYPE_FORWARD_ONLY,ResultSet.CONCUR_READ_ONLY).executeQuery("select patient_id FROM PatientDetails");
+            while(rs.next())
+            id = (rs.getString(1)).substring(3);
+            int no = (Integer.parseInt(id))+1;
+            int len = id.length() - ((String.valueOf(no))).length();
+            id="PAT";
+            for(int i=1 ; i<=len ; i++)
+                id=id+"0";
+            id=id+no;
+        }catch (Exception exc){ exc.printStackTrace();}
 
         return id;
     }

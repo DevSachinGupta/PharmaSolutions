@@ -85,7 +85,7 @@
             <Pane fx:id="vSalePane" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="28.0" prefHeight="50.0" prefWidth="776.0" text="Sale History" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                  <TableView fx:id="saleTable" layoutY="110.0" prefHeight="600.0" prefWidth="1023.0">
+                  <TableView fx:id="saleTable" editable="true" layoutY="110.0" prefHeight="600.0" prefWidth="1023.0">
                     <columns>
                       <TableColumn fx:id="sdtino" prefWidth="127.0" text="Invoice No" />
                       <TableColumn fx:id="sdtcid" prefWidth="125.0" text="Customer ID" />
@@ -191,18 +191,11 @@
                   <Button layoutX="203.0" layoutY="669.0" mnemonicParsing="false" text="Clear" />
                   <Button layoutX="367.0" layoutY="669.0" mnemonicParsing="false" onAction="#addPatient" text="Add Patient &gt;&gt;" />
                </children></Pane>
-            <Pane fx:id="iMedicineE" prefHeight="200.0" prefWidth="200.0" visible="false">
-               <children>
-                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="21.0" prefHeight="50.0" prefWidth="951.0" text="Add Pharma Product" />
-               </children>
-            </Pane>
-            <Pane fx:id="iMedicineA" prefHeight="200.0" prefWidth="200.0" visible="false">
-               <children>
-                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="21.0" prefHeight="50.0" prefWidth="951.0" text="Add Pharma Product" />
-               </children></Pane>
             <Pane fx:id="eMedicineUpdate" prefHeight="731.0" prefWidth="1023.0" visible="false">
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="31.0" prefHeight="50.0" prefWidth="951.0" text="Update Pharma Product" />
+                  <Label layoutX="61.0" layoutY="119.0" text="Label" />
+                  <Label layoutX="61.0" layoutY="175.0" text="Label" />
                </children></Pane>
             <Pane fx:id="eMedicineDelete" prefHeight="200.0" prefWidth="200.0" visible="false">
                <children>
@@ -216,9 +209,75 @@
                <children>
                   <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="38.0" prefHeight="50.0" prefWidth="951.0" text="Delete Employee" />
                </children></Pane>
+            <Pane fx:id="iMedicineA" prefHeight="200.0" prefWidth="200.0" visible="false">
+               <children>
+                  <Label id="panelTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="36.0" layoutY="14.0" prefHeight="50.0" prefWidth="951.0" text="Add Basic Product Information" />
+                  <Label layoutX="92.0" layoutY="130.0" text="Classification" />
+                  <Label layoutX="98.0" layoutY="186.0" text="Name" />
+                  <Label layoutX="95.0" layoutY="238.0" text="Generic Name" />
+                  <Label layoutX="95.0" layoutY="303.0" text="Strength" />
+                  <Label layoutX="98.0" layoutY="355.0" text="Pack Size" />
+                  <Label layoutX="98.0" layoutY="418.0" text="Speciality" />
+                  <Label layoutX="98.0" layoutY="470.0" text="HSN Number" />
+                  <Label layoutX="98.0" layoutY="517.0" text="SGST %" />
+                  <Label layoutX="557.0" layoutY="130.0" text="Code" />
+                  <Label layoutX="557.0" layoutY="186.0" text="Brand Name" />
+                  <Label layoutX="558.0" layoutY="245.0" text="Type" />
+                  <Label layoutX="558.0" layoutY="310.0" text="Company" />
+                  <Label layoutX="558.0" layoutY="355.0" text="U.O.M." />
+                  <Label layoutX="561.0" layoutY="477.0" text="GST %" />
+                  <Label layoutX="561.0" layoutY="524.0" text="CGST %" />
+                  <TextField layoutX="291.0" layoutY="128.0" />
+                  <TextField layoutX="291.0" layoutY="184.0" />
+                  <TextField layoutX="735.0" layoutY="181.0" />
+                  <TextField layoutX="292.0" layoutY="236.0" />
+                  <TextField layoutX="736.0" layoutY="240.0" />
+                  <TextField layoutX="292.0" layoutY="301.0" />
+                  <TextField layoutX="736.0" layoutY="305.0" />
+                  <TextField layoutX="292.0" layoutY="353.0" />
+                  <TextField layoutX="736.0" layoutY="350.0" />
+                  <TextField layoutX="295.0" layoutY="414.0" prefHeight="31.0" prefWidth="295.0" />
+                  <TextField layoutX="295.0" layoutY="468.0" />
+                  <TextField layoutX="739.0" layoutY="472.0" />
+                  <TextField layoutX="295.0" layoutY="515.0" />
+                  <TextField layoutX="739.0" layoutY="519.0" />
+                  <TextField layoutX="736.0" layoutY="125.0" />
+                  <Button layoutX="371.0" layoutY="614.0" mnemonicParsing="false" text="CLEAR" />
+                  <Button layoutX="501.0" layoutY="614.0" mnemonicParsing="false" text="SAVE" />
+                  <Button layoutX="638.0" layoutY="616.0" mnemonicParsing="false" text="Save &amp; Next &gt;&gt;" />
+               </children></Pane>
+            <Pane fx:id="iMedicineE" layoutX="10.0" layoutY="10.0" prefHeight="731.0" prefWidth="1023.0" visible="false">
+               <children>
+                  <Label id="panelTitle" alignment="CENTER" layoutX="42.0" layoutY="34.0" prefHeight="50.0" prefWidth="950.0" text="Add Product Purchase Details" textAlignment="CENTER" />
+                  <Label layoutX="53.0" layoutY="121.0" text="Item name" />
+                  <Label layoutX="562.0" layoutY="124.0" text="Item Code" />
+                  <Label layoutX="53.0" layoutY="177.0" text="Batch No." />
+                  <Label layoutX="51.0" layoutY="234.0" text="Expiry date" />
+                  <Label layoutX="53.0" layoutY="289.0" text="Quantity" />
+                  <Label layoutX="53.0" layoutY="339.0" text="M.R.P." />
+                  <Label layoutX="53.0" layoutY="386.0" text="Rate" />
+                  <Label layoutX="53.0" layoutY="435.0" text="Amount" />
+                  <Label layoutX="53.0" layoutY="484.0" text="Discount" />
+                  <Label layoutX="53.0" layoutY="535.0" text="Excise" />
+                  <Label layoutX="53.0" layoutY="586.0" text="Net Amount" />
+                  <TextField layoutX="238.0" layoutY="122.0" prefHeight="31.0" prefWidth="295.0" />
+                  <TextField layoutX="238.0" layoutY="175.0" prefHeight="31.0" prefWidth="295.0" />
+                  <DatePicker layoutX="238.0" layoutY="232.0" />
+                  <TextField layoutX="238.0" layoutY="287.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="238.0" layoutY="337.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="238.0" layoutY="384.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="238.0" layoutY="433.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="238.0" layoutY="482.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="238.0" layoutY="533.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="238.0" layoutY="584.0" prefHeight="31.0" prefWidth="217.0" />
+                  <TextField layoutX="736.0" layoutY="122.0" />
+                  <Button layoutX="407.0" layoutY="648.0" mnemonicParsing="false" text="Clear" />
+                  <Button layoutX="504.0" layoutY="648.0" mnemonicParsing="false" text="Save" />
+               </children>
+            </Pane>
             <Pane fx:id="salePane" prefHeight="731.0" prefWidth="1023.0">
                <children>
-                  <TableView fx:id="saleItemTable" layoutX="22.0" layoutY="318.0" prefHeight="200.0" prefWidth="978.0">
+                  <TableView fx:id="saleItemTable" editable="true" layoutX="22.0" layoutY="318.0" prefHeight="200.0" prefWidth="978.0">
                     <columns>
                       <TableColumn fx:id="ssn" prefWidth="57.0" text="S.No." />
                       <TableColumn fx:id="sic" prefWidth="104.0" text="Item Code" />
@@ -242,7 +301,7 @@
                   <TextField fx:id="pspname" layoutX="184.0" layoutY="96.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspcode" editable="false" layoutX="184.0" layoutY="148.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspedate" editable="false" layoutX="184.0" layoutY="203.0" prefHeight="31.0" prefWidth="284.0" />
-                  <TextField fx:id="pspcid" layoutX="184.0" layoutY="263.0" prefHeight="31.0" prefWidth="284.0" />
+                  <TextField fx:id="pspcid" layoutX="184.0" layoutY="263.0" prefHeight="31.0" prefWidth="284.0" text="PAT00" />
                   <TextField fx:id="pscname" layoutX="713.0" layoutY="263.0" prefHeight="31.0" prefWidth="267.0" />
                   <TextField fx:id="pspgname" editable="false" layoutX="713.0" layoutY="148.0" prefHeight="31.0" prefWidth="267.0" />
                   <TextField fx:id="pspbatchid" editable="false" layoutX="713.0" layoutY="96.0" prefHeight="31.0" prefWidth="267.0" />
@@ -258,12 +317,12 @@
                      </toggleGroup></RadioButton>
                   <RadioButton layoutX="807.0" layoutY="606.0" mnemonicParsing="false" text="Card" toggleGroup="$g1" />
                   <RadioButton layoutX="880.0" layoutY="606.0" mnemonicParsing="false" text="Electronic " toggleGroup="$g1" />
-                  <Button layoutX="710.0" layoutY="662.0" mnemonicParsing="false" text="Complete Sale !!!" />
-                  <Button layoutX="866.0" layoutY="518.0" mnemonicParsing="false" text="Delete Last Item" />
+                  <Button layoutX="825.0" layoutY="662.0" mnemonicParsing="false" text="Complete Sale !!!" />
+                  <Button layoutX="897.0" layoutY="518.0" mnemonicParsing="false" onAction="#deleteItemButtonAction" text="Delete Item" />
                   <TextField fx:id="psptquant" disable="true" layoutX="233.0" layoutY="544.0" promptText="0.0" />
                   <TextField fx:id="pspdis" layoutX="233.0" layoutY="588.0" promptText="0" text="0" />
                   <TextField fx:id="psprdis" disable="true" layoutX="233.0" layoutY="647.0" promptText="0.0" />
-                  <TextField fx:id="psamount" layoutX="736.0" layoutY="557.0" />
+                  <TextField fx:id="psptamt" editable="false" layoutX="736.0" layoutY="557.0" />
                   <Label layoutX="533.0" layoutY="205.0" text="Quantity" />
                   <TextField fx:id="pspquant" layoutX="713.0" layoutY="202.0" prefHeight="31.0" prefWidth="193.0" />
                </children>
