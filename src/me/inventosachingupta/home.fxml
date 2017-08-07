@@ -301,8 +301,8 @@
                   <TextField fx:id="pspname" layoutX="184.0" layoutY="96.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspcode" editable="false" layoutX="184.0" layoutY="148.0" prefHeight="31.0" prefWidth="284.0" />
                   <TextField fx:id="pspedate" editable="false" layoutX="184.0" layoutY="203.0" prefHeight="31.0" prefWidth="284.0" />
-                  <TextField fx:id="pspcid" layoutX="184.0" layoutY="263.0" prefHeight="31.0" prefWidth="284.0" text="PAT00" />
-                  <TextField fx:id="pscname" layoutX="713.0" layoutY="263.0" prefHeight="31.0" prefWidth="267.0" />
+                  <TextField fx:id="pspcid" layoutX="184.0" layoutY="263.0" prefHeight="31.0" prefWidth="284.0" />
+                  <TextField fx:id="pspcname" layoutX="713.0" layoutY="263.0" prefHeight="31.0" prefWidth="267.0" />
                   <TextField fx:id="pspgname" editable="false" layoutX="713.0" layoutY="148.0" prefHeight="31.0" prefWidth="267.0" />
                   <TextField fx:id="pspbatchid" editable="false" layoutX="713.0" layoutY="96.0" prefHeight="31.0" prefWidth="267.0" />
                   <Button layoutX="928.0" layoutY="202.0" mnemonicParsing="false" onAction="#addItemButtonAction" text="Add" />
@@ -311,13 +311,13 @@
                   <Label layoutX="46.0" layoutY="639.0" text="Discount(Rs.)" />
                   <Label layoutX="589.0" layoutY="559.0" text="Amount (Rs.)" />
                   <Label layoutX="589.0" layoutY="603.0" text="Payment Mode" />
-                  <RadioButton layoutX="736.0" layoutY="606.0" mnemonicParsing="false" selected="true" text="Cash">
+                  <RadioButton fx:id="rcash" layoutX="736.0" layoutY="606.0" mnemonicParsing="false" selected="true" text="Cash">
                      <toggleGroup>
                         <ToggleGroup fx:id="g1" />
                      </toggleGroup></RadioButton>
-                  <RadioButton layoutX="807.0" layoutY="606.0" mnemonicParsing="false" text="Card" toggleGroup="$g1" />
-                  <RadioButton layoutX="880.0" layoutY="606.0" mnemonicParsing="false" text="Electronic " toggleGroup="$g1" />
-                  <Button layoutX="825.0" layoutY="662.0" mnemonicParsing="false" text="Complete Sale !!!" />
+                  <RadioButton fx:id="rcard" layoutX="807.0" layoutY="606.0" mnemonicParsing="false" text="Card" toggleGroup="$g1" />
+                  <RadioButton fx:id="relectronic" layoutX="880.0" layoutY="606.0" mnemonicParsing="false" text="Electronic " toggleGroup="$g1" />
+                  <Button layoutX="825.0" layoutY="662.0" mnemonicParsing="false" onAction="#createSale" text="Complete Sale !!!" />
                   <Button layoutX="897.0" layoutY="518.0" mnemonicParsing="false" onAction="#deleteItemButtonAction" text="Delete Item" />
                   <TextField fx:id="psptquant" disable="true" layoutX="233.0" layoutY="544.0" promptText="0.0" />
                   <TextField fx:id="pspdis" layoutX="233.0" layoutY="588.0" promptText="0" text="0" />

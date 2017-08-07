@@ -1,6 +1,5 @@
 package me.inventosachingupta.controllers;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
@@ -30,10 +29,8 @@ import org.controlsfx.control.textfield.AutoCompletionBinding;
 import org.controlsfx.control.textfield.TextFields;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.ResultSet;
 import java.time.LocalDate;
-import java.time.chrono.ThaiBuddhistChronology;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
@@ -53,6 +50,7 @@ public class HomeController {
 
 
     Alert error_alert = new Alert(Alert.AlertType.ERROR);
+    Alert info_alert = new Alert(Alert.AlertType.INFORMATION);
 
     ObservableList<Employee> employeeTableData = FXCollections.observableArrayList();
     ObservableList<Patient> patientTableData = FXCollections.observableArrayList();
@@ -96,12 +94,14 @@ public class HomeController {
     //Fields from Sales Panel
     @FXML private TextField pspname,pspquant,pspcode,pspgname,pspcname,pspbatchid,pspedate,pspcid,psptquant,psptamt;
     @FXML private ToggleGroup g1;
-
+    @FXML private RadioButton rcash,rcard,relectronic;
 
     //Methods starts here
     public void initialize() {
         error_alert.setHeaderText("There is a error.\n The Error is given below");
         error_alert.setTitle("Error");
+        info_alert.setTitle("Information");
+        generateInvoiceNo();
         apId.setText(generatePatietId());
         setColumnTypes();
         System.out.println(Context.getInstance().getCat());
@@ -254,19 +254,50 @@ public class HomeController {
     }
 
     @FXML public  void createSale() {
-        String paymode = g1.getSelectedToggle().getUserData().toString();
+        String paymode =  " ";
+        if(rcash.isSelected())
+            paymode = "Cash Payment";
+        if(rcard.isSelected())
+            paymode = "Card Payment";
+        if(relectronic.isSelected())
+            paymode = "E-Wallet Payment";
         String cid = pspcid.getText();
         String cname = pspcname.getText();
-
+        System.out.println(paymode);
         if(cid.equalsIgnoreCase("") || cname.equalsIgnoreCase("")){
             error_alert.setContentText("Enter The value of either Customer Name or Customer ID.");
             error_alert.showAndWait();
         }
         else {
-            invoiceNO = generateInvoiceNo();
-            Sale s = new Sale(invoiceNO,cname,cid,String.valueOf(total_quant),String.valueOf(sno),String.valueOf(total_amt),paymode);
-
+            ///Sale s = new Sale(invoiceNO,cname,cid,String.valueOf(total_quant),String.valueOf(sno),String.valueOf(total_amt),paymode);
+            String sql="insert into Sale values('"+invoiceNO+"','"+cname+"','"+cid+"','"+total_quant+"','"+(sno-1)+"','"+total_amt+"','"+paymode+"');";
+            int i = DataBase.insertData(sql);
+            if(i != -1){
+                info_alert.setContentText("Invoice Successful Thanks for shoppiing..");
+                info_alert.showAndWait();
+                for(SoldItem s:saleItemsTableData){
+                    DataBase.insertData("insert into SoldItems values('"+s.getInvoiceno()+",'"+s.getIcode()+",'"+s.getIname()+",'"+s.getBatchno()+",'"+s.getEdate()+",'"+s.getFormulation()+",'"+s.getQuant()+",'"+s.getAmt()+",'"+s.getMrp()+"')");
+                }
+            }
+            clearNodes(salePane);
             invoiceNoConstant = invoiceNoConstant + 1;
+            generateInvoiceNo();
+        }
+    }
+    private void clearNodes(Pane panel){
+        for(Node n : panel.getChildren()){
+            if(n instanceof TextField)
+                ((TextField)n).clear();
+            if(n instanceof TableView)
+                ((TableView) n).getItems().clear();
+        }
+    }
+    private void save2Db(ObservableList l){
+        for(Object ob : l){
+            if(ob instanceof SoldItem) {
+                SoldItem si = (SoldItem) ob;
+                DataBase.insertData("insert into SoldItems values()");
+            }
         }
     }
     @FXML public void addEmployee(){
@@ -322,7 +353,7 @@ public class HomeController {
         SoldItem in = saleItemTable.getSelectionModel().getSelectedItem();
         //saleItemTable.getItems().remove(in);
         saleItemsTableData.remove(in);
-        System.out.println(in);
+        //System.out.println(in);
         for(SoldItem si:saleItemsTableData){
             //tsn = tsn+1;
             si.setSn(String.valueOf(tsn));
@@ -418,11 +449,11 @@ public class HomeController {
     /**
      * Method to generate invoice no
      */
-    private String generateInvoiceNo(){
+    private void generateInvoiceNo(){
         String invoice = "";
         Calendar d = Calendar.getInstance();
         invoice = String.valueOf(d.get(Calendar.YEAR))+String.valueOf(d.get(Calendar.MONTH))+String.valueOf(d.get(Calendar.DATE))+invoiceNoConstant;
-        return invoice;
+        invoiceNO = invoice;
     }
     private String generatePatietId(){
         String id = "1";

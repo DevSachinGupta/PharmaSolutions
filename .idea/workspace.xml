@@ -2,20 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/cssdialects.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.keystream" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.keystream.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.values.at" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata_i" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata_i.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/storage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.keystream" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.keystream.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.values.at" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata_i" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata_i.len" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/storage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/sqldialects.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/PharmacyManagementSystem.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/about.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/AgeCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/Convert2Int.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/DataBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/HomeController$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/HomeController.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/DataBase.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/DataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/Controller.class" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/Controller.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Patient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Products.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Sale.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/SoldItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/fonts/BubblerOne-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/fonts/Playball-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/home.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/login.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/myStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/pms.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/about.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/fonts/BubblerOne-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/fonts/Playball-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/home.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/login.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/myStyle.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms.db" afterPath="$PROJECT_DIR$/pms.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PharmacyManagementSystem.iml" afterPath="$PROJECT_DIR$/PharmacyManagementSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/PharmacyManagementSystem.iml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/PharmacyManagementSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/README.md" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/home.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/home.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/login.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/login.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PharmacyManagementSystem.iml" afterPath="$PROJECT_DIR$/PharmaSolutions.iml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,15 +140,9 @@
       <file leaf-file-name="home.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="317" column="24" lean-forward="false" selection-start-line="317" selection-start-column="24" selection-end-line="317" selection-end-column="24" />
-              <folding>
-                <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="316" column="49" lean-forward="true" selection-start-line="316" selection-start-column="49" selection-end-line="316" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
@@ -101,18 +150,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="296" column="23" lean-forward="true" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
+            <state relative-caret-position="21">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="initializer##0;class#HomeController#0" expanded="false" />
                 <element signature="method#initialize#0;class#HomeController#0" expanded="false" />
                 <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
                 <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
+                <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
+                <element signature="method#clearNodes#0;class#HomeController#0" expanded="false" />
+                <element signature="method#save2Db#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
                 <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
+                <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addMedicine#0;class#HomeController#0" expanded="false" />
                 <element signature="method#updateMedicine#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
@@ -126,17 +179,17 @@
                 <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
                 <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
                 <element signature="method#generatePatietId#0;class#HomeController#0" expanded="false" />
-                <marker date="1502025328212" expanded="true" signature="4769:4918" ph="Select emp_i... employeedata" />
-                <marker date="1502025328212" expanded="true" signature="5330:5358" ph="Select * fro... PatientDetails" />
-                <marker date="1502025328212" expanded="true" signature="5674:5792" ph="Select * fro... Products" />
-                <marker date="1502025328212" expanded="true" signature="5674:5799" ph="Select * fro... ProductsDetails" />
-                <marker date="1502025328212" expanded="true" signature="6229:6247" ph="Select * fro... Sale" />
-                <marker date="1502025328212" expanded="true" signature="11872:12021" ph="Select emp_i... employeedata" />
-                <marker date="1502025328212" expanded="true" signature="12557:12585" ph="Select * fro... PatientDetails" />
-                <marker date="1502025328212" expanded="true" signature="12979:13105" ph="Select ItemC... ProductsDetails" />
-                <marker date="1502025328212" expanded="true" signature="13592:13610" ph="Select * fro... Sale" />
-                <marker date="1502025328212" expanded="true" signature="20453:20471" ph="select patie... " />
-                <marker date="1502025328212" expanded="true" signature="20453:20490" ph="select patie... PatientDetails" />
+                <marker date="1502116257026" expanded="true" signature="4836:4985" ph="Select emp_i... employeedata" />
+                <marker date="1502116257026" expanded="true" signature="5397:5425" ph="Select * fro... PatientDetails" />
+                <marker date="1502116257026" expanded="true" signature="5741:5859" ph="Select * fro... Products" />
+                <marker date="1502116257026" expanded="true" signature="5741:5866" ph="Select * fro... ProductsDetails" />
+                <marker date="1502116257026" expanded="true" signature="6296:6314" ph="Select * fro... Sale" />
+                <marker date="1502116257026" expanded="true" signature="11939:12088" ph="Select emp_i... employeedata" />
+                <marker date="1502116257026" expanded="true" signature="12624:12652" ph="Select * fro... PatientDetails" />
+                <marker date="1502116257026" expanded="true" signature="13046:13172" ph="Select ItemC... ProductsDetails" />
+                <marker date="1502116257026" expanded="true" signature="13659:13677" ph="Select * fro... Sale" />
+                <marker date="1502116257026" expanded="true" signature="21970:21988" ph="select patie... " />
+                <marker date="1502116257026" expanded="true" signature="21970:22007" ph="select patie... PatientDetails" />
               </folding>
             </state>
           </provider>
@@ -145,32 +198,12 @@
       <file leaf-file-name="SoldItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
                 <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sale.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert2Int.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -257,9 +290,9 @@
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java" />
       </list>
     </option>
   </component>
@@ -270,7 +303,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -626,48 +659,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PharmacyManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmacyManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PharmacyManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmacyManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PharmacyManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmacyManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inventosachingupta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PharmacyManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmacyManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inventosachingupta" type="462c0819:PsiDirectoryNode" />
-              <item name="aid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PharmacyManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmacyManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inventosachingupta" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PharmacyManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -684,7 +699,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="C:/@MyApps/SceneBuilder/SceneBuilder.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -734,7 +749,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PharmacyManagementSystem" />
+      <module name="PharmaSolutions" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -796,6 +811,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PharmacyManagementSystem" />
+      <envs />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -1020,19 +1047,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PharmacyManagementSystem" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -1129,34 +1143,34 @@
       <workItem from="1501100246437" duration="9402000" />
       <workItem from="1501791349479" duration="638000" />
       <workItem from="1501797022450" duration="1790000" />
-      <workItem from="1501842280079" duration="13050000" />
+      <workItem from="1501842280079" duration="13616000" />
+      <workItem from="1502026016254" duration="8987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208646000" />
+    <option name="totallyTimeSpent" value="218199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1058" extended-state="1" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1058" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20357941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20357941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19548872" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.198174" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1190,7 +1204,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1213,13 +1227,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1255,13 +1263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1289,13 +1291,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -1337,13 +1333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1436,7 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,7 +1489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,9 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1549,42 +1534,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="317" column="24" lean-forward="false" selection-start-line="317" selection-start-column="24" selection-end-line="317" selection-end-column="24" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="316" column="49" lean-forward="true" selection-start-line="316" selection-start-column="49" selection-end-line="316" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
+            <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="296" column="23" lean-forward="true" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
+        <state relative-caret-position="21">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="initializer##0;class#HomeController#0" expanded="false" />
             <element signature="method#initialize#0;class#HomeController#0" expanded="false" />
             <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
             <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
+            <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
+            <element signature="method#clearNodes#0;class#HomeController#0" expanded="false" />
+            <element signature="method#save2Db#0;class#HomeController#0" expanded="false" />
             <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
             <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
+            <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
             <element signature="method#addMedicine#0;class#HomeController#0" expanded="false" />
             <element signature="method#updateMedicine#0;class#HomeController#0" expanded="false" />
             <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
@@ -1598,45 +1608,18 @@
             <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
             <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
             <element signature="method#generatePatietId#0;class#HomeController#0" expanded="false" />
-            <marker date="1502025328212" expanded="true" signature="4769:4918" ph="Select emp_i... employeedata" />
-            <marker date="1502025328212" expanded="true" signature="5330:5358" ph="Select * fro... PatientDetails" />
-            <marker date="1502025328212" expanded="true" signature="5674:5792" ph="Select * fro... Products" />
-            <marker date="1502025328212" expanded="true" signature="5674:5799" ph="Select * fro... ProductsDetails" />
-            <marker date="1502025328212" expanded="true" signature="6229:6247" ph="Select * fro... Sale" />
-            <marker date="1502025328212" expanded="true" signature="11872:12021" ph="Select emp_i... employeedata" />
-            <marker date="1502025328212" expanded="true" signature="12557:12585" ph="Select * fro... PatientDetails" />
-            <marker date="1502025328212" expanded="true" signature="12979:13105" ph="Select ItemC... ProductsDetails" />
-            <marker date="1502025328212" expanded="true" signature="13592:13610" ph="Select * fro... Sale" />
-            <marker date="1502025328212" expanded="true" signature="20453:20471" ph="select patie... " />
-            <marker date="1502025328212" expanded="true" signature="20453:20490" ph="select patie... PatientDetails" />
+            <marker date="1502116257026" expanded="true" signature="4836:4985" ph="Select emp_i... employeedata" />
+            <marker date="1502116257026" expanded="true" signature="5397:5425" ph="Select * fro... PatientDetails" />
+            <marker date="1502116257026" expanded="true" signature="5741:5859" ph="Select * fro... Products" />
+            <marker date="1502116257026" expanded="true" signature="5741:5866" ph="Select * fro... ProductsDetails" />
+            <marker date="1502116257026" expanded="true" signature="6296:6314" ph="Select * fro... Sale" />
+            <marker date="1502116257026" expanded="true" signature="11939:12088" ph="Select emp_i... employeedata" />
+            <marker date="1502116257026" expanded="true" signature="12624:12652" ph="Select * fro... PatientDetails" />
+            <marker date="1502116257026" expanded="true" signature="13046:13172" ph="Select ItemC... ProductsDetails" />
+            <marker date="1502116257026" expanded="true" signature="13659:13677" ph="Select * fro... Sale" />
+            <marker date="1502116257026" expanded="true" signature="21970:21988" ph="select patie... " />
+            <marker date="1502116257026" expanded="true" signature="21970:22007" ph="select patie... PatientDetails" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
-            <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
