@@ -2,75 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/cssdialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.keystream" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.keystream.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata.values.at" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata_i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/_metadata_/metadata_i.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/69084b68-df95-4d26-b215-8b4d34c409c9/storage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.keystream" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.keystream.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata.values.at" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata_i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/_metadata_/metadata_i.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/dataSources/920f7f78-b1bf-46bf-b177-8c8020e8c32a/storage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/PharmacyManagementSystem.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/about.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/AgeCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/Context.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/Convert2Int.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/aid/DataBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/HomeController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/controllers/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Patient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Products.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/Sale.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/dao/SoldItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/fonts/BubblerOne-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/fonts/Playball-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/home.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/login.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/me/inventosachingupta/myStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/pms.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/about.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/fonts/BubblerOne-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/fonts/Playball-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/home.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/login.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmacyManagementSystem/src/me/inventosachingupta/myStyle.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms.db" afterPath="$PROJECT_DIR$/pms.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/login.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/login.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PharmacyManagementSystem.iml" afterPath="$PROJECT_DIR$/PharmaSolutions.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/aid/AgeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/aid/AgeCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/pms.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/pms.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/pms.db-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pms.db" beforeDir="false" afterPath="$PROJECT_DIR$/pms.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,73 +77,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="home.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="316" column="49" lean-forward="true" selection-start-line="316" selection-start-column="49" selection-end-line="316" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="859">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
               <folding>
-                <element signature="initializer##0;class#HomeController#0" expanded="false" />
-                <element signature="method#initialize#0;class#HomeController#0" expanded="false" />
-                <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
-                <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
-                <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
-                <element signature="method#clearNodes#0;class#HomeController#0" expanded="false" />
-                <element signature="method#save2Db#0;class#HomeController#0" expanded="false" />
-                <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
-                <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
-                <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
-                <element signature="method#addMedicine#0;class#HomeController#0" expanded="false" />
-                <element signature="method#updateMedicine#0;class#HomeController#0" expanded="false" />
-                <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#deleteItemButtonAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#setApAge#0;class#HomeController#0" expanded="false" />
-                <element signature="method#viewSaleAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#viewPatientAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#viewEmployeeAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#viewProductAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#aboutMenuAcion#0;class#HomeController#0" expanded="false" />
-                <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
-                <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
-                <element signature="method#generatePatietId#0;class#HomeController#0" expanded="false" />
-                <marker date="1502116257026" expanded="true" signature="4836:4985" ph="Select emp_i... employeedata" />
-                <marker date="1502116257026" expanded="true" signature="5397:5425" ph="Select * fro... PatientDetails" />
-                <marker date="1502116257026" expanded="true" signature="5741:5859" ph="Select * fro... Products" />
-                <marker date="1502116257026" expanded="true" signature="5741:5866" ph="Select * fro... ProductsDetails" />
-                <marker date="1502116257026" expanded="true" signature="6296:6314" ph="Select * fro... Sale" />
-                <marker date="1502116257026" expanded="true" signature="11939:12088" ph="Select emp_i... employeedata" />
-                <marker date="1502116257026" expanded="true" signature="12624:12652" ph="Select * fro... PatientDetails" />
-                <marker date="1502116257026" expanded="true" signature="13046:13172" ph="Select ItemC... ProductsDetails" />
-                <marker date="1502116257026" expanded="true" signature="13659:13677" ph="Select * fro... Sale" />
-                <marker date="1502116257026" expanded="true" signature="21970:21988" ph="select patie... " />
-                <marker date="1502116257026" expanded="true" signature="21970:22007" ph="select patie... PatientDetails" />
+                <element signature="initializer##0;class#HomeController#0" />
+                <element signature="e#7912#11703#0" />
+                <element signature="e#11709#13992#0" />
+                <element signature="e#13998#15586#0" />
+                <element signature="e#15591#15856#0" />
+                <element signature="e#15861#16115#0" />
+                <element signature="e#16120#16159#0" />
+                <element signature="e#16164#16206#0" />
+                <element signature="e#16211#16855#0" />
+                <element signature="e#16906#16945#0" />
+                <element signature="e#16950#16992#0" />
+                <element signature="e#16998#17886#0" />
+                <element signature="e#17891#18599#0" />
+                <element signature="e#18604#18772#0" />
+                <element signature="e#18777#18923#0" />
+                <element signature="e#18928#19038#0" />
+                <element signature="e#19043#19156#0" />
+                <element signature="e#19161#19271#0" />
+                <element signature="e#19844#20015#0" />
+                <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+                <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoldItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
-                <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-8">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -211,9 +121,8 @@
       <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="859">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -256,11 +165,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -302,11 +206,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-26" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1924" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -645,21 +552,11 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -669,45 +566,77 @@
             </path>
             <path>
               <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inventosachingupta" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PharmaSolutions" type="cbb8eebc:String" user="PharmaSolutions" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PharmaSolutions" type="cbb8eebc:String" user="PharmaSolutions" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PharmaSolutions" type="cbb8eebc:String" user="PharmaSolutions" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PharmaSolutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="PharmaSolutions" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="PharmaSolutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="PharmaSolutions" type="616d4139:PackageViewModuleNode" />
+              <item name="me.inventosachingupta" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="create.test.in.the.same.root" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2375297" />
   </component>
@@ -732,49 +661,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="me.inventosachingupta.Main" />
+      <module name="PharmaSolutions" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="me.inventosachingupta.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PharmaSolutions" />
-      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -784,17 +716,7 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -804,42 +726,23 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <module name="PharmacyManagementSystem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PharmacyManagementSystem" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -852,17 +755,20 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -888,39 +794,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -1062,6 +935,13 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1098,9 +978,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1145,51 +1033,62 @@
       <workItem from="1501797022450" duration="1790000" />
       <workItem from="1501842280079" duration="13616000" />
       <workItem from="1502026016254" duration="8987000" />
+      <workItem from="1502528960239" duration="637000" />
+      <workItem from="1507509314062" duration="684000" />
+      <workItem from="1507873713305" duration="537000" />
+      <workItem from="1507992696552" duration="2540000" />
+      <workItem from="1508824810267" duration="710000" />
+      <workItem from="1510062071036" duration="804000" />
+      <workItem from="1531842903662" duration="1091000" />
+      <workItem from="1532537846705" duration="185000" />
+      <workItem from="1532538046373" duration="5000" />
+      <workItem from="1532538081525" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218199000" />
+    <option name="totallyTimeSpent" value="225634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1058" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20357941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.198174" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="10" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32885906" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.20297556" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32997763" />
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.6703755" visible="true" weight="0.21510416" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39932886" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Nl-Palette" order="4" />
+      <window_info anchor="bottom" id="Changes" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="JetGradle" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Profiler" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="16" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277405" />
+      <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="right" id="Properties" order="0" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1204,76 +1103,178 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <option name="time" value="29" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="2805">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
           <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
+            <element signature="initializer##0;class#HomeController#0" />
+            <element signature="e#7912#11703#0" />
+            <element signature="e#11709#13992#0" />
+            <element signature="e#13998#15586#0" />
+            <element signature="e#15591#15856#0" />
+            <element signature="e#15861#16115#0" />
+            <element signature="e#16120#16159#0" />
+            <element signature="e#16164#16206#0" />
+            <element signature="e#16211#16855#0" />
+            <element signature="e#16906#16945#0" />
+            <element signature="e#16950#16992#0" />
+            <element signature="e#16998#17886#0" />
+            <element signature="e#17891#18599#0" />
+            <element signature="e#18604#18772#0" />
+            <element signature="e#18777#18923#0" />
+            <element signature="e#18928#19038#0" />
+            <element signature="e#19043#19156#0" />
+            <element signature="e#19161#19271#0" />
+            <element signature="e#19844#20015#0" />
+            <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+            <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="901">
+          <caret line="69" column="84" selection-start-line="69" selection-start-column="84" selection-end-line="69" selection-end-column="84" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
+          <folding>
+            <element signature="initializer##0;class#HomeController#0" />
+            <element signature="e#7912#11703#0" />
+            <element signature="e#11709#13992#0" />
+            <element signature="e#13998#15586#0" />
+            <element signature="e#15591#15856#0" />
+            <element signature="e#15861#16115#0" />
+            <element signature="e#16120#16159#0" />
+            <element signature="e#16164#16206#0" />
+            <element signature="e#16211#16855#0" />
+            <element signature="e#16906#16945#0" />
+            <element signature="e#16950#16992#0" />
+            <element signature="e#16998#17886#0" />
+            <element signature="e#17891#18599#0" />
+            <element signature="e#18604#18772#0" />
+            <element signature="e#18777#18923#0" />
+            <element signature="e#18928#19038#0" />
+            <element signature="e#19043#19156#0" />
+            <element signature="e#19161#19271#0" />
+            <element signature="e#19844#20015#0" />
+            <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+            <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="69" column="84" selection-start-line="69" selection-start-column="84" selection-end-line="69" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6783">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
+          <folding>
+            <element signature="initializer##0;class#HomeController#0" />
+            <element signature="e#7912#11703#0" />
+            <element signature="e#11709#13992#0" />
+            <element signature="e#13998#15586#0" />
+            <element signature="e#15591#15856#0" />
+            <element signature="e#15861#16115#0" />
+            <element signature="e#16120#16159#0" />
+            <element signature="e#16164#16206#0" />
+            <element signature="e#16211#16855#0" />
+            <element signature="e#16906#16945#0" />
+            <element signature="e#16950#16992#0" />
+            <element signature="e#16998#17886#0" />
+            <element signature="e#17891#18599#0" />
+            <element signature="e#18604#18772#0" />
+            <element signature="e#18777#18923#0" />
+            <element signature="e#18928#19038#0" />
+            <element signature="e#19043#19156#0" />
+            <element signature="e#19161#19271#0" />
+            <element signature="e#19844#20015#0" />
+            <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+            <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="84" lean-forward="true" selection-start-line="69" selection-start-column="84" selection-end-line="69" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1281,37 +1282,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1325,67 +1309,28 @@
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1393,13 +1338,6 @@
     <entry file="file://$USER_HOME$/IdeaProjects/ChatServer/src/main/java/me/sachingupta/aid/AssistDB.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/pms" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/920f7f78-b1bf-46bf-b177-8c8020e8c32a/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/fonts/Playball-Regular.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Collage/Coursera/Algo Tool/Assign2/fibonacci/Fibonacci.java" />
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/fonts/BubblerOne-Regular.ttf">
       <provider selected="true" editor-type-id="text-editor">
@@ -1410,37 +1348,15 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/69084b68-df95-4d26-b215-8b4d34c409c9/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/about.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1451,36 +1367,26 @@
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-          </folding>
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/@MyApps/JavaLibs/controlsfx-8.40.12.jar!/org/controlsfx/control/textfield/customtextfield.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1302">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-1302" />
       </provider>
     </entry>
     <entry file="jar://C:/@MyApps/JavaLibs/controlsfx-8.40.12.jar!/org/controlsfx/control/textfield/AutoCompletionBinding.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/@MyApps/JavaLibs/controlsfx-8.40.12.jar!/org/controlsfx/control/textfield/TextFields.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-979">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1495,130 +1401,92 @@
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
-          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/@MyApps/JavaLibs/sqlite-jdbc-3.18.0.jar!/org/sqlite/jdbc4/JDBC4ResultSet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3699">
-          <caret line="343" column="0" lean-forward="false" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Products.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-336">
-          <caret line="25" column="179" lean-forward="false" selection-start-line="25" selection-start-column="179" selection-end-line="25" selection-end-column="179" />
-          <folding>
-            <element signature="method#Products#1;class#Products#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
+          <caret line="25" column="179" selection-start-line="25" selection-start-column="179" selection-end-line="25" selection-end-column="179" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="316" column="49" lean-forward="true" selection-start-line="316" selection-start-column="49" selection-end-line="316" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
-            <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="859">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
           <folding>
-            <element signature="initializer##0;class#HomeController#0" expanded="false" />
-            <element signature="method#initialize#0;class#HomeController#0" expanded="false" />
-            <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
-            <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
-            <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
-            <element signature="method#clearNodes#0;class#HomeController#0" expanded="false" />
-            <element signature="method#save2Db#0;class#HomeController#0" expanded="false" />
-            <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
-            <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
-            <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
-            <element signature="method#addMedicine#0;class#HomeController#0" expanded="false" />
-            <element signature="method#updateMedicine#0;class#HomeController#0" expanded="false" />
-            <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#deleteItemButtonAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#setApAge#0;class#HomeController#0" expanded="false" />
-            <element signature="method#viewSaleAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#viewPatientAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#viewEmployeeAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#viewProductAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#aboutMenuAcion#0;class#HomeController#0" expanded="false" />
-            <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
-            <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
-            <element signature="method#generatePatietId#0;class#HomeController#0" expanded="false" />
-            <marker date="1502116257026" expanded="true" signature="4836:4985" ph="Select emp_i... employeedata" />
-            <marker date="1502116257026" expanded="true" signature="5397:5425" ph="Select * fro... PatientDetails" />
-            <marker date="1502116257026" expanded="true" signature="5741:5859" ph="Select * fro... Products" />
-            <marker date="1502116257026" expanded="true" signature="5741:5866" ph="Select * fro... ProductsDetails" />
-            <marker date="1502116257026" expanded="true" signature="6296:6314" ph="Select * fro... Sale" />
-            <marker date="1502116257026" expanded="true" signature="11939:12088" ph="Select emp_i... employeedata" />
-            <marker date="1502116257026" expanded="true" signature="12624:12652" ph="Select * fro... PatientDetails" />
-            <marker date="1502116257026" expanded="true" signature="13046:13172" ph="Select ItemC... ProductsDetails" />
-            <marker date="1502116257026" expanded="true" signature="13659:13677" ph="Select * fro... Sale" />
-            <marker date="1502116257026" expanded="true" signature="21970:21988" ph="select patie... " />
-            <marker date="1502116257026" expanded="true" signature="21970:22007" ph="select patie... PatientDetails" />
+            <element signature="initializer##0;class#HomeController#0" />
+            <element signature="e#7912#11703#0" />
+            <element signature="e#11709#13992#0" />
+            <element signature="e#13998#15586#0" />
+            <element signature="e#15591#15856#0" />
+            <element signature="e#15861#16115#0" />
+            <element signature="e#16120#16159#0" />
+            <element signature="e#16164#16206#0" />
+            <element signature="e#16211#16855#0" />
+            <element signature="e#16906#16945#0" />
+            <element signature="e#16950#16992#0" />
+            <element signature="e#16998#17886#0" />
+            <element signature="e#17891#18599#0" />
+            <element signature="e#18604#18772#0" />
+            <element signature="e#18777#18923#0" />
+            <element signature="e#18928#19038#0" />
+            <element signature="e#19043#19156#0" />
+            <element signature="e#19161#19271#0" />
+            <element signature="e#19844#20015#0" />
+            <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+            <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
           </folding>
         </state>
       </provider>

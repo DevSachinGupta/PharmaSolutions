@@ -22,6 +22,7 @@ public class AgeCalculator {
 
         Calendar bd = new GregorianCalendar(year, month, day);
         ageYears = now.get(Calendar.YEAR) - bd.get(Calendar.YEAR);
+		
         if(now.before(new GregorianCalendar(now.get(Calendar.YEAR), month, day))){
             ageYears--;
             ageMonths = (12 - (bd.get(Calendar.MONTH) + 1)) + (bd.get(Calendar.MONTH));

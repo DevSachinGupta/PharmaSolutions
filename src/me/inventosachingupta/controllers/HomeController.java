@@ -428,22 +428,12 @@ public class HomeController {
         Node topNode = childs.get(childs.size()-1);
         Node newTopNode = node;
 
-        double width = dData.getWidth();
-        KeyFrame start = new KeyFrame(Duration.ZERO,
-                new KeyValue(newTopNode.translateXProperty(), width),
-                new KeyValue(topNode.translateXProperty(), 0));
-        KeyFrame end = new KeyFrame(Duration.seconds(2),
-                new KeyValue(newTopNode.translateXProperty(), 0),
-                new KeyValue(topNode.translateXProperty(), -width));
-        Timeline slide = new Timeline(start, end);
-        slide.setOnFinished(e -> {
-            topNode.toBack();
-            topNode.setVisible(false);
-            newTopNode.toFront();
-            newTopNode.setVisible(true);
+        topNode.toBack();
+        topNode.setVisible(false);
+        newTopNode.toFront();
+        newTopNode.setVisible(true);
 
-        });
-        slide.play();
+
     }
 
     /**

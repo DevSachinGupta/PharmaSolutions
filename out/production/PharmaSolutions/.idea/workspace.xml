@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/pms.db-journal" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/aid/AgeCalculator.class" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/aid/AgeCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/controllers/HomeController.class" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/me/inventosachingupta/controllers/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/pms.db" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/pms.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pms.db" afterPath="$PROJECT_DIR$/pms.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PharmaSolutions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/PharmaSolutions/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/aid/AgeCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" afterPath="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PharmacyManagementSystem.iml" afterPath="$PROJECT_DIR$/PharmaSolutions.iml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,18 +77,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="home.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5649">
-              <caret line="317" column="24" lean-forward="false" selection-start-line="317" selection-start-column="24" selection-end-line="317" selection-end-column="24" />
-              <folding>
-                <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-                <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="615">
+              <caret line="332" column="14" lean-forward="true" selection-start-line="332" selection-start-column="14" selection-end-line="332" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
@@ -92,18 +90,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="287" column="35" lean-forward="true" selection-start-line="287" selection-start-column="35" selection-end-line="287" selection-end-column="35" />
+            <state relative-caret-position="3276">
+              <caret line="464" column="0" lean-forward="false" selection-start-line="464" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
               <folding>
                 <element signature="initializer##0;class#HomeController#0" expanded="false" />
                 <element signature="method#initialize#0;class#HomeController#0" expanded="false" />
                 <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
                 <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
+                <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
+                <element signature="method#clearNodes#0;class#HomeController#0" expanded="false" />
+                <element signature="method#save2Db#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
                 <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
+                <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addMedicine#0;class#HomeController#0" expanded="false" />
                 <element signature="method#updateMedicine#0;class#HomeController#0" expanded="false" />
                 <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
@@ -113,66 +115,19 @@
                 <element signature="method#viewPatientAction#0;class#HomeController#0" expanded="false" />
                 <element signature="method#viewEmployeeAction#0;class#HomeController#0" expanded="false" />
                 <element signature="method#viewProductAction#0;class#HomeController#0" expanded="false" />
-                <element signature="method#aboutMenuAcion#0;class#HomeController#0" expanded="false" />
                 <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
-                <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
-                <element signature="method#generateInvoiceNo#0;class#HomeController#0" expanded="false" />
-                <element signature="method#generatePatietId#0;class#HomeController#0" expanded="false" />
-                <marker date="1502044015359" expanded="true" signature="4877:5026" ph="Select emp_i... employeedata" />
-                <marker date="1502044015359" expanded="true" signature="5438:5466" ph="Select * fro... PatientDetails" />
-                <marker date="1502044015359" expanded="true" signature="5782:5900" ph="Select * fro... Products" />
-                <marker date="1502044015359" expanded="true" signature="5782:5907" ph="Select * fro... ProductsDetails" />
-                <marker date="1502044015359" expanded="true" signature="6337:6355" ph="Select * fro... Sale" />
-                <marker date="1502044015359" expanded="true" signature="11980:12129" ph="Select emp_i... employeedata" />
-                <marker date="1502044015359" expanded="true" signature="12665:12693" ph="Select * fro... PatientDetails" />
-                <marker date="1502044015359" expanded="true" signature="13087:13213" ph="Select ItemC... ProductsDetails" />
-                <marker date="1502044015359" expanded="true" signature="13700:13718" ph="Select * fro... Sale" />
-                <marker date="1502044015359" expanded="true" signature="20937:20955" ph="select patie... " />
-                <marker date="1502044015359" expanded="true" signature="20937:20974" ph="select patie... PatientDetails" />
+                <marker date="1507874095906" expanded="true" signature="4836:4985" ph="Select emp_i... employeedata" />
+                <marker date="1507874095906" expanded="true" signature="5397:5425" ph="Select * fro... PatientDetails" />
+                <marker date="1507874095906" expanded="true" signature="5741:5859" ph="Select * fro... Products" />
+                <marker date="1507874095906" expanded="true" signature="5741:5866" ph="Select * fro... ProductsDetails" />
+                <marker date="1507874095906" expanded="true" signature="6296:6314" ph="Select * fro... Sale" />
+                <marker date="1507874095906" expanded="true" signature="11939:12088" ph="Select emp_i... employeedata" />
+                <marker date="1507874095906" expanded="true" signature="12624:12652" ph="Select * fro... PatientDetails" />
+                <marker date="1507874095906" expanded="true" signature="13046:13172" ph="Select ItemC... ProductsDetails" />
+                <marker date="1507874095906" expanded="true" signature="13659:13677" ph="Select * fro... Sale" />
+                <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+                <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoldItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
-                <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sale.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert2Int.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -259,8 +214,8 @@
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/myStyle.css" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java" />
-        <option value="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java" />
+        <option value="$PROJECT_DIR$/src/me/inventosachingupta/home.fxml" />
         <option value="$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java" />
       </list>
     </option>
@@ -272,10 +227,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-26" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1924" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -628,6 +583,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -643,47 +600,36 @@
             </path>
             <path>
               <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inventosachingupta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PharmaSolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PharmaSolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inventosachingupta" type="462c0819:PsiDirectoryNode" />
-              <item name="aid" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="create.test.in.the.same.root" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2375297" />
   </component>
@@ -708,49 +654,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="me.inventosachingupta.Main" />
+      <module name="PharmaSolutions" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="me.inventosachingupta.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PharmaSolutions" />
-      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -760,17 +709,7 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -780,42 +719,23 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <module name="PharmacyManagementSystem" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PharmacyManagementSystem" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -828,17 +748,20 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -864,39 +787,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -1038,6 +928,13 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1074,9 +971,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1120,32 +1022,39 @@
       <workItem from="1501791349479" duration="638000" />
       <workItem from="1501797022450" duration="1790000" />
       <workItem from="1501842280079" duration="13616000" />
-      <workItem from="1502026016254" duration="1321000" />
+      <workItem from="1502026016254" duration="8987000" />
+      <workItem from="1502528960239" duration="637000" />
+      <workItem from="1507509314062" duration="684000" />
+      <workItem from="1507873713305" duration="537000" />
+      <workItem from="1507992696552" duration="2540000" />
+      <workItem from="1508824810267" duration="710000" />
+      <workItem from="1510062071036" duration="804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210533000" />
+    <option name="totallyTimeSpent" value="224111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1058" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20357941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.198174" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21535982" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1157,7 +1066,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1180,7 +1089,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1193,9 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
           <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,13 +1109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1220,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,9 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,13 +1141,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1269,9 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,13 +1166,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -1303,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,13 +1205,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1354,9 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1381,9 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,14 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1513,9 +1371,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding>
-            <marker date="1499705349850" expanded="true" signature="1566:1606" ph="SELECT emp_i... employeedata" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1527,69 +1403,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5649">
-          <caret line="317" column="24" lean-forward="false" selection-start-line="317" selection-start-column="24" selection-end-line="317" selection-end-column="24" />
-          <folding>
-            <element signature="n#Menu#0;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#1;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#2;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#3;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-            <element signature="n#Menu#4;n#menus#0;n#MenuBar#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/SoldItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="method#SoldItem#1;class#SoldItem#0" expanded="false" />
-            <element signature="method#SoldItem#2;class#SoldItem#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/dao/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/Convert2Int.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/aid/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="287" column="35" lean-forward="true" selection-start-line="287" selection-start-column="35" selection-end-line="287" selection-end-column="35" />
+        <state relative-caret-position="3276">
+          <caret line="464" column="0" lean-forward="false" selection-start-line="464" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
           <folding>
             <element signature="initializer##0;class#HomeController#0" expanded="false" />
             <element signature="method#initialize#0;class#HomeController#0" expanded="false" />
             <element signature="method#setColumnTypes#0;class#HomeController#0" expanded="false" />
             <element signature="method#reteriveDataToObjects#0;class#HomeController#0" expanded="false" />
+            <element signature="method#createSale#0;class#HomeController#0" expanded="false" />
+            <element signature="method#clearNodes#0;class#HomeController#0" expanded="false" />
+            <element signature="method#save2Db#0;class#HomeController#0" expanded="false" />
             <element signature="method#addEmployee#0;class#HomeController#0" expanded="false" />
             <element signature="method#updateEmployee#0;class#HomeController#0" expanded="false" />
+            <element signature="method#addPatient#0;class#HomeController#0" expanded="false" />
             <element signature="method#addMedicine#0;class#HomeController#0" expanded="false" />
             <element signature="method#updateMedicine#0;class#HomeController#0" expanded="false" />
             <element signature="method#addItemButtonAction#0;class#HomeController#0" expanded="false" />
@@ -1599,24 +1434,31 @@
             <element signature="method#viewPatientAction#0;class#HomeController#0" expanded="false" />
             <element signature="method#viewEmployeeAction#0;class#HomeController#0" expanded="false" />
             <element signature="method#viewProductAction#0;class#HomeController#0" expanded="false" />
-            <element signature="method#aboutMenuAcion#0;class#HomeController#0" expanded="false" />
             <element signature="method#insertMedicineMenuAcion#0;class#HomeController#0" expanded="false" />
-            <element signature="method#changeTop#0;class#HomeController#0" expanded="false" />
-            <element signature="method#generateInvoiceNo#0;class#HomeController#0" expanded="false" />
-            <element signature="method#generatePatietId#0;class#HomeController#0" expanded="false" />
-            <marker date="1502044015359" expanded="true" signature="4877:5026" ph="Select emp_i... employeedata" />
-            <marker date="1502044015359" expanded="true" signature="5438:5466" ph="Select * fro... PatientDetails" />
-            <marker date="1502044015359" expanded="true" signature="5782:5900" ph="Select * fro... Products" />
-            <marker date="1502044015359" expanded="true" signature="5782:5907" ph="Select * fro... ProductsDetails" />
-            <marker date="1502044015359" expanded="true" signature="6337:6355" ph="Select * fro... Sale" />
-            <marker date="1502044015359" expanded="true" signature="11980:12129" ph="Select emp_i... employeedata" />
-            <marker date="1502044015359" expanded="true" signature="12665:12693" ph="Select * fro... PatientDetails" />
-            <marker date="1502044015359" expanded="true" signature="13087:13213" ph="Select ItemC... ProductsDetails" />
-            <marker date="1502044015359" expanded="true" signature="13700:13718" ph="Select * fro... Sale" />
-            <marker date="1502044015359" expanded="true" signature="20937:20955" ph="select patie... " />
-            <marker date="1502044015359" expanded="true" signature="20937:20974" ph="select patie... PatientDetails" />
+            <marker date="1507874095906" expanded="true" signature="4836:4985" ph="Select emp_i... employeedata" />
+            <marker date="1507874095906" expanded="true" signature="5397:5425" ph="Select * fro... PatientDetails" />
+            <marker date="1507874095906" expanded="true" signature="5741:5859" ph="Select * fro... Products" />
+            <marker date="1507874095906" expanded="true" signature="5741:5866" ph="Select * fro... ProductsDetails" />
+            <marker date="1507874095906" expanded="true" signature="6296:6314" ph="Select * fro... Sale" />
+            <marker date="1507874095906" expanded="true" signature="11939:12088" ph="Select emp_i... employeedata" />
+            <marker date="1507874095906" expanded="true" signature="12624:12652" ph="Select * fro... PatientDetails" />
+            <marker date="1507874095906" expanded="true" signature="13046:13172" ph="Select ItemC... ProductsDetails" />
+            <marker date="1507874095906" expanded="true" signature="13659:13677" ph="Select * fro... Sale" />
+            <marker date="1507874095906" expanded="true" signature="21415:21433" ph="select patie... " />
+            <marker date="1507874095906" expanded="true" signature="21415:21452" ph="select patie... PatientDetails" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/inventosachingupta/home.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="332" column="14" lean-forward="true" selection-start-line="332" selection-start-column="14" selection-end-line="332" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>
