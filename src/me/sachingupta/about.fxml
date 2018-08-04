@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="448.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.sachingupta.controllers.Controller">
+   <children>
+      <ImageView fitHeight="230.0" fitWidth="245.0" layoutX="21.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="300.0" layoutY="29.0" editable="false" prefHeight="362.0" prefWidth="267.0" text="This system is developed by Sachin Gupta of Computer Engineering.&#10;&#10;This system helps in monitoring various types of activites.&#10;This Application is created using JavaFX as front end.&#10;&#10;This is licenced to the deveplopers only.&#10;&#10;Copyright  © 2017&#10;All Right Reserved" wrapText="true" />
+      <Label layoutX="34.0" layoutY="289.0" text="Pharmacy Management System" />
+      <Label layoutX="34.0" layoutY="345.0" prefHeight="21.0" prefWidth="209.0" text="Version 0.0.1 Snapshoot" />
+   </children>
+</AnchorPane>

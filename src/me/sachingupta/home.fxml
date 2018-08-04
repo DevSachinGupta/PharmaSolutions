@@ -21,7 +21,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
-<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.inventosachingupta.controllers.HomeController">
+<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.sachingupta.controllers.HomeController">
    <children>
       <MenuBar prefHeight="32.0" prefWidth="1023.0">
         <menus>
