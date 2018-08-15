@@ -16,70 +16,91 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.input.KeyCodeCombination?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
-<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.inventosachingupta.controllers.HomeController">
+<AnchorPane prefHeight="765.0" prefWidth="1023.0" stylesheets="@myStyle.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.sachingupta.controllers.HomeController">
    <children>
-      <MenuBar prefHeight="32.0" prefWidth="1023.0">
-        <menus>
-          <Menu mnemonicParsing="false" text="File">
-            <items>
-              <MenuItem onAction="#createSaleAction" text="Create Sale">
-                     <accelerator>
-                        <KeyCodeCombination alt="UP" code="N" control="ANY" meta="UP" shift="UP" shortcut="UP" />
-                     </accelerator></MenuItem>
-              <MenuItem mnemonicParsing="false" onAction="#exit" text="Quit">
-                     <accelerator>
-                        <KeyCodeCombination alt="ANY" code="X" control="UP" meta="UP" shift="UP" shortcut="UP" />
-                     </accelerator></MenuItem>
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
-            <items>
-              <MenuItem mnemonicParsing="false" onAction="#updateMedicineMenuAcion" text="Update Product Details" />
-              <MenuItem mnemonicParsing="false" onAction="#deleteMedicineMenuAcion" text="Delete Product" />
-              <SeparatorMenuItem fx:id="seprateMenuItem" mnemonicParsing="false" />
-              <MenuItem fx:id="updateEmployeeMenuitem" mnemonicParsing="false" onAction="#updateEmployeeMenuAcion" text="Update Employee" />
-              <MenuItem fx:id="deleteEmployeeMenuitem" mnemonicParsing="false" onAction="#deleteEmployeeMenuAcion" text="Delete Employee" />
-            </items>
-          </Menu>
-            <Menu mnemonicParsing="false" text="Insert">
-              <items>
-                <MenuItem mnemonicParsing="false" onAction="#insertMedicineMenuAcion" text="Pharma Product" />
-                <MenuItem fx:id="addEmployeeMenuitem" mnemonicParsing="false" onAction="#insertEmployeeMenuAcion" text="Employee" />
-                <MenuItem mnemonicParsing="false" onAction="#insertPatientMenuAcion" text="Patient" />
-              </items>
-            </Menu>
-            <Menu mnemonicParsing="false" text="View">
-                <items>
-                    <MenuItem onAction="#viewSaleAction" text="Sale">
-                     <accelerator>
-                        <KeyCodeCombination alt="UP" code="S" control="ANY" meta="UP" shift="UP" shortcut="UP" />
-                     </accelerator></MenuItem>
-                    <MenuItem onAction="#viewProductAction" text="Products">
-                     <accelerator>
-                        <KeyCodeCombination alt="UP" code="P" control="ANY" meta="UP" shift="UP" shortcut="UP" />
-                     </accelerator></MenuItem>
-                    <MenuItem onAction="#viewEmployeeAction" text="Employees">
-                     <accelerator>
-                        <KeyCodeCombination alt="UP" code="E" control="ANY" meta="UP" shift="UP" shortcut="UP" />
-                     </accelerator></MenuItem>
-                    <MenuItem onAction="#viewPatientAction" text="Patients">
-                     <accelerator>
-                        <KeyCodeCombination alt="ANY" code="A" control="UP" meta="UP" shift="UP" shortcut="UP" />
-                     </accelerator></MenuItem>
-                </items>
-            </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem fx:id="aboutMenu" mnemonicParsing="false" onAction="#aboutMenuAcion" text="About" />
-            </items>
-          </Menu>
-        </menus>
-      </MenuBar>
+      <HBox prefWidth="1023.0">
+         <children>
+            <MenuBar prefHeight="35.0" prefWidth="994.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem onAction="#createSaleAction" text="Create Sale">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="N" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                    <MenuItem mnemonicParsing="false" onAction="#exit" text="Quit">
+                           <accelerator>
+                              <KeyCodeCombination alt="ANY" code="X" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#updateMedicineMenuAcion" text="Update Product Details" />
+                    <MenuItem mnemonicParsing="false" onAction="#deleteMedicineMenuAcion" text="Delete Product" />
+                    <SeparatorMenuItem fx:id="seprateMenuItem" mnemonicParsing="false" />
+                    <MenuItem fx:id="updateEmployeeMenuitem" mnemonicParsing="false" onAction="#updateEmployeeMenuAcion" text="Update Employee" />
+                    <MenuItem fx:id="deleteEmployeeMenuitem" mnemonicParsing="false" onAction="#deleteEmployeeMenuAcion" text="Delete Employee" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Insert">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#insertMedicineMenuAcion" text="Pharma Product" />
+                      <MenuItem fx:id="addEmployeeMenuitem" mnemonicParsing="false" onAction="#insertEmployeeMenuAcion" text="Employee" />
+                      <MenuItem mnemonicParsing="false" onAction="#insertPatientMenuAcion" text="Patient" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="View">
+                      <items>
+                          <MenuItem onAction="#viewSaleAction" text="Sale">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="S" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                          <MenuItem onAction="#viewProductAction" text="Products">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="P" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                          <MenuItem onAction="#viewEmployeeAction" text="Employees">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="E" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                          <MenuItem onAction="#viewPatientAction" text="Patients">
+                           <accelerator>
+                              <KeyCodeCombination alt="ANY" code="A" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                      </items>
+                  </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem fx:id="aboutMenu" mnemonicParsing="false" onAction="#aboutMenuAcion" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Button fx:id="tableRefreshButton" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" mnemonicParsing="false" styleClass="refreshButton">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/reload.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </HBox>
       <StackPane fx:id="dData" layoutY="32.0" prefHeight="731.0" prefWidth="1023.0">
          <children>
             <Pane fx:id="vSalePane" prefHeight="731.0" prefWidth="1023.0" visible="false">

@@ -111,35 +111,7 @@ public class HomeController {
             deleteEmployeeMenuitem.setVisible(false);
         }
         try {
-            ResultSet rs=connection.createStatement().executeQuery("Select emp_id,emp_name,emp_phone,emp_email,emp_job_title,emp_department,emp_shift,emp_type,emp_address,emp_start_date,emp_end_date  from employeedata");
-            while (rs.next()){
-                Employee row=new Employee(rs.getString(1),rs.getString(2),String.valueOf(rs.getLong(3)),rs.getString(4)
-                        ,rs.getString(5),rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10),rs.getString(11));
-                employeeTableData.add(row);
-            }
-            rs=connection.createStatement().executeQuery("Select * from PatientDetails");
-            while(rs.next()){
-                Patient pat=new Patient(rs.getString(1),rs.getString(2),rs.getString(3),String.valueOf(rs.getInt(4)),rs.getString(5),rs.getString(6),rs.getString(7));
-                patientTableData.add(pat);
-            }
-            rs=connection.createStatement().executeQuery("Select ItemCode,ItemName,BRANDNAME,GENERICNAME,Department,ItemType,PACKSIZE,Quantity,BATCHNO,EXPDATE,MRP from ProductsDetails");
-            while(rs.next()){
-                Products prod=new Products(rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6),rs.getString(7),rs.getString(8),rs.getString(9),rs.getString(10),rs.getString(11));
-                productTableData.add(prod);
-                autoCompleteProduct.add(prod.getName());
-            }
-            rs=connection.createStatement().executeQuery("Select * from Sale");
-            while(rs.next()){
-                Sale pat=new Sale(rs.getString(1),rs.getString(2),rs.getString(3),String.valueOf(rs.getInt(4)),rs.getString(5),rs.getString(6),rs.getString(7));
-                saleTableData.add(pat);
-            }
 
-
-            employeeTable.setItems(employeeTableData);
-            patientTable.setItems(patientTableData);
-            productTable.setItems(productTableData);
-            saleTable.setItems(saleTableData);
-            saleItemTable.setItems(saleItemsTableData);
             AutoCompletionBinding<String> abc=TextFields.bindAutoCompletion(pspname,autoCompleteProduct);
             abc.setOnAutoCompleted(new EventHandler<AutoCompletionBinding.AutoCompletionEvent<String>>() {
                 @Override

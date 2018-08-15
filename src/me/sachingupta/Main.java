@@ -20,7 +20,7 @@ public class Main extends Application {
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(false);
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("logo.png")));
+        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("images/logo.png")));
         primaryStage.show();
     }
 
