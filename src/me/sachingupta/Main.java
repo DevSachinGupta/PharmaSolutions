@@ -7,13 +7,12 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-import me.sachingupta.aid.DataBase;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        new DataBase();
+
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Font.loadFont(getClass().getResourceAsStream("fonts/Playball-Regular.ttf"),40);
         Font.loadFont(getClass().getResourceAsStream("fonts/BubblerOne-Regular.ttf"),40);

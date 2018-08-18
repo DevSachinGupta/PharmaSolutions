@@ -12,7 +12,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import me.sachingupta.Main;
 import me.sachingupta.aid.Context;
-import me.sachingupta.aid.DataBase;
+import me.sachingupta.aid.DataBaseFactory;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -27,10 +27,7 @@ public class Controller {
     String username,password,ename,eid;
 
     ObservableList<String> gender = FXCollections.observableArrayList();
-    Connection connection;
-    {
-        connection = DataBase.getConnection();
-    }
+    Connection connection = DataBaseFactory.getInstance().getConnection();
     Context context=Context.getInstance();
 
     /**
