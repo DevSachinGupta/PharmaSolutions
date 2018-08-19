@@ -16,10 +16,7 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import me.sachingupta.Main;
-import me.sachingupta.aid.AgeCalculator;
-import me.sachingupta.aid.Context;
-import me.sachingupta.aid.Convert2Int;
-import me.sachingupta.aid.DataBaseFactory;
+import me.sachingupta.aid.*;
 import me.sachingupta.dao.*;
 import org.controlsfx.control.textfield.AutoCompletionBinding;
 import org.controlsfx.control.textfield.TextFields;
@@ -57,7 +54,7 @@ public class HomeController {
 
     Connection connection;
     {
-        connection = DataBaseFactory.getConnection();
+        connection = DataBaseFactory.getInstance().getConnection();
     }
     private String cat;//used for employe category
 
@@ -241,12 +238,12 @@ public class HomeController {
         else {
             ///Sale s = new Sale(invoiceNO,cname,cid,String.valueOf(total_quant),String.valueOf(sno),String.valueOf(total_amt),paymode);
             String sql="insert into Sale values('"+invoiceNO+"','"+cname+"','"+cid+"','"+total_quant+"','"+(sno-1)+"','"+total_amt+"','"+paymode+"');";
-            int i = DataBaseFactory.insertData(sql);
+            int i = (new SaleDBFactory()).add(sql);
             if(i != -1){
                 info_alert.setContentText("Invoice Successful Thanks for shoppiing..");
                 info_alert.showAndWait();
                 for(SoldItem s:saleItemsTableData){
-                    DataBaseFactory.insertData("insert into SoldItems values('"+s.getInvoiceno()+",'"+s.getIcode()+",'"+s.getIname()+",'"+s.getBatchno()+",'"+s.getEdate()+",'"+s.getFormulation()+",'"+s.getQuant()+",'"+s.getAmt()+",'"+s.getMrp()+"')");
+                    (new SoldItemsDBFactory()).add(s);
                 }
             }
             clearNodes(salePane);
@@ -262,14 +259,7 @@ public class HomeController {
                 ((TableView) n).getItems().clear();
         }
     }
-    private void save2Db(ObservableList l){
-        for(Object ob : l){
-            if(ob instanceof SoldItem) {
-                SoldItem si = (SoldItem) ob;
-                DataBaseFactory.insertData("insert into SoldItems values()");
-            }
-        }
-    }
+
     @FXML public void addEmployee(){
 
     }
@@ -286,8 +276,9 @@ public class HomeController {
         String dob = String.valueOf(dateTimeFormatter.format(ld));
         int age = AgeCalculator.calculateAge(ld);
         String sql="insert into PatientDetails values('"+id+"','"+name+"','"+dob+"','"+age+"','"+sex+"','"+dname+"','"+diag+"');";
-        int i = DataBaseFactory.insertData(sql);
-        System.out.println(name+" "+age+" "+dname+" "+diag+" "+sex+" "+dob+ " "+i);
+        //int i =
+        (new PatientDBFactory()).add(new Patient(id,name,dob,String.valueOf(age),sex,dname,diag));
+        //System.out.println(name+" "+age+" "+dname+" "+diag+" "+sex+" "+dob+ " "+i);
     }
     @FXML public void updatePaitent(){
 

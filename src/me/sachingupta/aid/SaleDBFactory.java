@@ -10,4 +10,11 @@ public class SaleDBFactory {
     private PreparedStatement preparedStatement;
     private ResultSet resultSet;
 
+    public int add(String sql) {
+        int stat = -1;
+
+
+        return stat;
+    }
+
 }
