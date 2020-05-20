@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="448.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.sachingupta.controllers.LoginController">
+   <children>
+      <ImageView fitHeight="230.0" fitWidth="245.0" layoutX="21.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="300.0" layoutY="29.0" prefHeight="362.0" prefWidth="267.0" text="This system is developed for the management of the single medical / pharmacutical retailer(s).&#10;&#10;It supports the gst based billing and other systems. This system also helps in monitoring various types of activites.&#10;&#10;This is product is licensed  as proprietory.&#10;&#10;Copyright  © 2017&#10;All Right Reserved" wrapText="true" />
+      <Label layoutX="34.0" layoutY="289.0" text="PharmaSolution" />
+      <Label layoutX="34.0" layoutY="345.0" prefHeight="21.0" prefWidth="209.0" text="Version 1.0.0" />
+   </children>
+</AnchorPane>
