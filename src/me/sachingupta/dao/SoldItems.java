@@ -3,9 +3,7 @@ package me.sachingupta.dao;
 import javafx.beans.property.SimpleFloatProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
-import lombok.Data;
 
-@Data
 public class SoldItems {
     private SimpleStringProperty sn;
     private SimpleStringProperty pName;
