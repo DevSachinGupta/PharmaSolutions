@@ -16,8 +16,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        //Parent root = FXMLLoader.load(getClass().getResource("view/login.fxml"));
-        Parent root = FXMLLoader.load(getClass().getResource("view/pointOfSale.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/login.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("view/pointOfSale.fxml"));
         Font.loadFont(getClass().getResourceAsStream("fonts/Playball-Regular.ttf"),40);
         Font.loadFont(getClass().getResourceAsStream("fonts/BubblerOne-Regular.ttf"),40);
         primaryStage.setTitle("Login");
