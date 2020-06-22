@@ -1,167 +1,99 @@
 package me.sachingupta.dao;
 
-import javafx.beans.property.SimpleFloatProperty;
 import javafx.beans.property.SimpleStringProperty;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+/**
+ * Created by Sachin Gupta on 08-06-2017.
+ */
+@Entity
 public class Sale {
-    private SimpleStringProperty billNo;
-    private SimpleStringProperty customerName;
-    private SimpleStringProperty doctorName;
-    private SimpleStringProperty date;
-    private SimpleStringProperty modeOfPayment;
-    private SimpleFloatProperty taxableAmount;;
-    private SimpleFloatProperty gstAmount;
-    private SimpleFloatProperty totalBillAmount;
-    private SimpleFloatProperty discount;
-    private SimpleFloatProperty discountAmount;
-    private SimpleFloatProperty netPayableAmount;
+    @Id
+    @Column(name="invoice_no")
+    private String invoiceno;
+    @Column(name = "customer_name")
+    private String customername;
+    @Column(name = "customer_id")
+    private String customerid;
+    @Column(name = "quantity")
+    private String quantity;
+    @Column(name = "noof_items")
+    private String noofitems;
+    @Column(name = "amount")
+    private String amt;
+    @Column(name = "payment_method")
+    private String paymethod;
 
     public Sale() {
+        this("","","","","","","");
     }
 
-    public Sale(SimpleStringProperty billNo, SimpleStringProperty customerName, SimpleStringProperty doctorName, SimpleStringProperty date, SimpleStringProperty modeOfPayment, SimpleFloatProperty taxableAmount, SimpleFloatProperty gstAmount, SimpleFloatProperty totalBillAmount, SimpleFloatProperty discount, SimpleFloatProperty discountAmount, SimpleFloatProperty netPayableAmount) {
-        this.billNo = billNo;
-        this.customerName = customerName;
-        this.doctorName = doctorName;
-        this.date = date;
-        this.modeOfPayment = modeOfPayment;
-        this.taxableAmount = taxableAmount;
-        this.gstAmount = gstAmount;
-        this.totalBillAmount = totalBillAmount;
-        this.discount = discount;
-        this.discountAmount = discountAmount;
-        this.netPayableAmount = netPayableAmount;
+    public Sale(String invoiceno, String customername, String customerid, String quantity, String noofitems, String amt, String paymethod) {
+        this.invoiceno = invoiceno;
+        this.customername = customername;
+        this.customerid = customerid;
+        this.quantity = quantity;
+        this.noofitems = noofitems;
+        this.amt = amt;
+        this.paymethod = paymethod;
     }
 
-    public String getBillNo() {
-        return billNo.get();
+    public String getInvoiceno() {
+        return invoiceno;
     }
 
-    public SimpleStringProperty billNoProperty() {
-        return billNo;
+    public void setInvoiceno(String invoiceno) {
+        this.invoiceno = invoiceno;
     }
 
-    public void setBillNo(String billNo) {
-        this.billNo.set(billNo);
+    public String getCustomername() {
+        return customername;
     }
 
-    public String getCustomerName() {
-        return customerName.get();
+    public void setCustomername(String customername) {
+        this.customername = customername;
     }
 
-    public SimpleStringProperty customerNameProperty() {
-        return customerName;
+    public String getCustomerid() {
+        return customerid;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName.set(customerName);
+    public void setCustomerid(String customerid) {
+        this.customerid = customerid;
     }
 
-    public String getDoctorName() {
-        return doctorName.get();
+    public String getQuantity() {
+        return quantity;
     }
 
-    public SimpleStringProperty doctorNameProperty() {
-        return doctorName;
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
     }
 
-    public void setDoctorName(String doctorName) {
-        this.doctorName.set(doctorName);
+    public String getNoofitems() {
+        return noofitems;
     }
 
-    public String getDate() {
-        return date.get();
+    public void setNoofitems(String noofitems) {
+        this.noofitems = noofitems;
     }
 
-    public SimpleStringProperty dateProperty() {
-        return date;
+    public String getAmt() {
+        return amt;
     }
 
-    public void setDate(String date) {
-        this.date.set(date);
+    public void setAmt(String amt) {
+        this.amt = amt;
     }
 
-    public String getModeOfPayment() {
-        return modeOfPayment.get();
+    public String getPaymethod() {
+        return paymethod;
     }
 
-    public SimpleStringProperty modeOfPaymentProperty() {
-        return modeOfPayment;
-    }
-
-    public void setModeOfPayment(String modeOfPayment) {
-        this.modeOfPayment.set(modeOfPayment);
-    }
-
-    public float getTaxableAmount() {
-        return taxableAmount.get();
-    }
-
-    public SimpleFloatProperty taxableAmountProperty() {
-        return taxableAmount;
-    }
-
-    public void setTaxableAmount(float taxableAmount) {
-        this.taxableAmount.set(taxableAmount);
-    }
-
-    public float getGstAmount() {
-        return gstAmount.get();
-    }
-
-    public SimpleFloatProperty gstAmountProperty() {
-        return gstAmount;
-    }
-
-    public void setGstAmount(float gstAmount) {
-        this.gstAmount.set(gstAmount);
-    }
-
-    public float getTotalBillAmount() {
-        return totalBillAmount.get();
-    }
-
-    public SimpleFloatProperty totalBillAmountProperty() {
-        return totalBillAmount;
-    }
-
-    public void setTotalBillAmount(float totalBillAmount) {
-        this.totalBillAmount.set(totalBillAmount);
-    }
-
-    public float getDiscount() {
-        return discount.get();
-    }
-
-    public SimpleFloatProperty discountProperty() {
-        return discount;
-    }
-
-    public void setDiscount(float discount) {
-        this.discount.set(discount);
-    }
-
-    public float getDiscountAmount() {
-        return discountAmount.get();
-    }
-
-    public SimpleFloatProperty discountAmountProperty() {
-        return discountAmount;
-    }
-
-    public void setDiscountAmount(float discountAmount) {
-        this.discountAmount.set(discountAmount);
-    }
-
-    public float getNetPayableAmount() {
-        return netPayableAmount.get();
-    }
-
-    public SimpleFloatProperty netPayableAmountProperty() {
-        return netPayableAmount;
-    }
-
-    public void setNetPayableAmount(float netPayableAmount) {
-        this.netPayableAmount.set(netPayableAmount);
+    public void setPaymethod(String paymethod) {
+        this.paymethod = paymethod;
     }
 }
