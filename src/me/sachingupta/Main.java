@@ -10,14 +10,10 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    public static void main(String... args) {
-        launch(args);
-    }
-
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("view/login.fxml"));
-        //Parent root = FXMLLoader.load(getClass().getResource("view/pointOfSale.fxml"));
+    public void start(Stage primaryStage) throws Exception{
+
+        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         Font.loadFont(getClass().getResourceAsStream("fonts/Playball-Regular.ttf"),40);
         Font.loadFont(getClass().getResourceAsStream("fonts/BubblerOne-Regular.ttf"),40);
         primaryStage.setTitle("Login");
@@ -25,5 +21,10 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("images/logo.png")));
         primaryStage.show();
+    }
+
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }

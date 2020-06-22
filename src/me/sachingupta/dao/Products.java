@@ -1,182 +1,159 @@
 package me.sachingupta.dao;
 
-import javafx.beans.property.SimpleFloatProperty;
 import javafx.beans.property.SimpleStringProperty;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+/**
+ * Created by Sachin Gupta on 08-06-2017.
+ */
+@Entity
 public class Products {
-    // private long id;
-    private SimpleStringProperty itemType;
-    private SimpleStringProperty name;
-    private SimpleStringProperty strength;
-    private SimpleStringProperty genericName;
-    private SimpleStringProperty packSize;
-    private SimpleStringProperty category;
-    private SimpleStringProperty manufacturer;
-    private SimpleStringProperty hsnNo;
-    private SimpleFloatProperty gst;
-    private SimpleStringProperty suppliers;
-    private SimpleStringProperty highRisk;
-    private SimpleStringProperty scheduledH1;
+    @Id
+    @Column(name = "product_code")
+    private String code;
+    @Column(name = "product_name")
+    private String name;
+    @Column(name = "product_brand")
+    private String bname;//brand name
+    @Column(name = "product_category")
+    private String category;//Category
+    @Column(name = "generic_name")
+    private String genricname;
+    @Column
+    private String department;//Speciality
+    @Column
+    private String type;
+    @Column(name = "pack_size")
+    private String packsize;
+    @Column(name = "quantity")
+    private String quant;
+    @Column
+    private String batch;
+    @Column(name = "expiary_date")
+    private String edate;
+    @Column
+    private String mrp;
 
     public Products() {
+        this("","","","","","","","","","","","");
     }
 
-    public Products(SimpleStringProperty itemType, SimpleStringProperty name, SimpleStringProperty strength, SimpleStringProperty genericName, SimpleStringProperty packSize, SimpleStringProperty category, SimpleStringProperty manufacturer, SimpleStringProperty hsnNo, SimpleFloatProperty gst, SimpleStringProperty suppliers, SimpleStringProperty highRisk, SimpleStringProperty scheduledH1) {
-        this.itemType = itemType;
+    public Products(String code, String name, String bname,String category,String genricname, String department, String type, String packsize, String quant, String batch, String edate, String mrp) {
+        this.code = code;
         this.name = name;
-        this.strength = strength;
-        this.genericName = genericName;
-        this.packSize = packSize;
-        this.category = category;
-        this.manufacturer = manufacturer;
-        this.hsnNo = hsnNo;
-        this.gst = gst;
-        this.suppliers = suppliers;
-        this.highRisk = highRisk;
-        this.scheduledH1 = scheduledH1;
+        this.bname = bname;
+        this.category=category;
+        this.genricname = genricname;
+        this.department = department;
+        this.type = type;
+        this.packsize = packsize;
+        this.quant = quant;
+        this.batch = batch;
+        this.edate = edate;
+        this.mrp = mrp;
     }
 
-    public String getItemType() {
-        return itemType.get();
+    public String getCode() {
+        return code;
     }
 
-    public SimpleStringProperty itemTypeProperty() {
-        return itemType;
-    }
-
-    public void setItemType(String itemType) {
-        this.itemType.set(itemType);
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public String getName() {
-        return name.get();
-    }
-
-    public SimpleStringProperty nameProperty() {
         return name;
     }
 
     public void setName(String name) {
-        this.name.set(name);
+        this.name = name;
     }
 
-    public String getStrength() {
-        return strength.get();
+    public String getBname() {
+        return bname;
     }
 
-    public SimpleStringProperty strengthProperty() {
-        return strength;
+    public void setBname(String bname) {
+        this.bname = bname;
     }
 
-    public void setStrength(String strength) {
-        this.strength.set(strength);
+    public String getGenricname() {
+        return genricname;
     }
 
-    public String getGenericName() {
-        return genericName.get();
+    public void setGenricname(String genricname) {
+        this.genricname = genricname;
     }
 
-    public SimpleStringProperty genericNameProperty() {
-        return genericName;
+    public String getDepartment() {
+        return department;
     }
 
-    public void setGenericName(String genericName) {
-        this.genericName.set(genericName);
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
-    public String getPackSize() {
-        return packSize.get();
+    public String getType() {
+        return type;
     }
 
-    public SimpleStringProperty packSizeProperty() {
-        return packSize;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public void setPackSize(String packSize) {
-        this.packSize.set(packSize);
+    public String getPacksize() {
+        return packsize;
+    }
+
+    public void setPacksize(String packsize) {
+        this.packsize = packsize;
+    }
+
+    public String getQuant() {
+        return quant;
+    }
+
+    public void setQuant(String quant) {
+        this.quant = quant;
+    }
+
+    public String getBatch() {
+        return batch;
+    }
+
+    public void setBatch(String batch) {
+        this.batch = batch;
+    }
+
+    public String getEdate() {
+        return edate;
+    }
+
+    public void setEdate(String edate) {
+        this.edate = edate;
+    }
+
+    public String getMrp() {
+        return mrp;
+    }
+
+    public void setMrp(String mrp) {
+        this.mrp = mrp;
     }
 
     public String getCategory() {
-        return category.get();
-    }
-
-    public SimpleStringProperty categoryProperty() {
         return category;
     }
 
     public void setCategory(String category) {
-        this.category.set(category);
+        this.category = category;
     }
 
-    public String getManufacturer() {
-        return manufacturer.get();
-    }
-
-    public SimpleStringProperty manufacturerProperty() {
-        return manufacturer;
-    }
-
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer.set(manufacturer);
-    }
-
-    public String getHsnNo() {
-        return hsnNo.get();
-    }
-
-    public SimpleStringProperty hsnNoProperty() {
-        return hsnNo;
-    }
-
-    public void setHsnNo(String hsnNo) {
-        this.hsnNo.set(hsnNo);
-    }
-
-    public float getGst() {
-        return gst.get();
-    }
-
-    public SimpleFloatProperty gstProperty() {
-        return gst;
-    }
-
-    public void setGst(float gst) {
-        this.gst.set(gst);
-    }
-
-    public String getSuppliers() {
-        return suppliers.get();
-    }
-
-    public SimpleStringProperty suppliersProperty() {
-        return suppliers;
-    }
-
-    public void setSuppliers(String suppliers) {
-        this.suppliers.set(suppliers);
-    }
-
-    public String getHighRisk() {
-        return highRisk.get();
-    }
-
-    public SimpleStringProperty highRiskProperty() {
-        return highRisk;
-    }
-
-    public void setHighRisk(String highRisk) {
-        this.highRisk.set(highRisk);
-    }
-
-    public String getScheduledH1() {
-        return scheduledH1.get();
-    }
-
-    public SimpleStringProperty scheduledH1Property() {
-        return scheduledH1;
-    }
-
-    public void setScheduledH1(String scheduledH1) {
-        this.scheduledH1.set(scheduledH1);
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
